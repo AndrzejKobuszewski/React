@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8"/>
+ <title>Uczymy się reacta ze zrozumieniem do spodu</title>
+</head>
+<body>
+ <div id="App"></div>
+ <script src="https://unpkg.com/react@16.8.6/umd/react.development.js"> </script>
+ <script src="https://unpkg.com/react-dom@16.8.6/umd/react-dom.development.js"></script>
+ <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+ <script type = "text/babel">
+    
+ </script>
+ <script type="text/babel">
+ 
+ const data = [
+ {
+   name: "Pieczony łosoś",
+   ingredients: [
+     { name: "łosoś", amount: 1, measurement: "kg" },
+     { name: "orzeszki piniowe", amount: 1, measurement: "szklanka" },
+     { name: "sałata", amount: 2, measurement: "główka" },
+     { name: "żółta dynia", amount: 1, measurement: "sztuka" },
+     { name: "oliwa", amount: 0.5, measurement: "szklanka" },
+     { name: "czosnek", amount: 3, measurement: "ząbki" },
+   ],
+   steps: [
+     "Rozgrzej piekarnik do 190 stopni.",
+     "Posmaruj oliwą szklane naczynie żaroodporne.",
+     "Do naczynia włóż łososia, czosnek i orzeszki piniowe.",
+     "Piecz przez 15 minut.",
+     "Do naczynia włóż żółtą dynię i wstaw je do piekarnika na 30 minut.",
+     "Wyjmij z piekarnika. Dodaj sałatę i podaj potrawę.",
+   ],
+ },
+ {
+   name: "Taco rybne",
+   ingredients: [
+     { name: "ryba morska o białym mięsie", amount: 1, measurement: "kg" },
+     { name: "ser", amount: 1, measurement: "opakowanie" },
+     { name: "sałata lodowa", amount: 2, measurement: "główki" },
+     { name: "pomidory", amount: 2, measurement: "duże" },
+     { name: "tortilla", amount: 3, measurement: "sztuka" },
+   ],
+   steps: [
+     "Grilluj rybę, aż będzie gotowa do spożycia.",
+     "Umieść rybę na trzech tortillach.",
+     "Udekoruj je sałatą, pomidorami i serem",
+   ]
+ }
+];
+
+function Recipe ({name, ingredients, steps}){
+return (
+  <section id={name.toLowerCase().replace(/ /g, "-")}>
+    <h1>{name}</h1>
+    <ul className="ingredients">
+      {ingredients.map((ingredient, i) => (<li key ={i}>{ingredient.name}</li>))}
+    </ul>
+   <section className="instructions">
+    <h2>Sposób przygotowania</h2>
+    {steps.map((step, i)=>(<p key={i}>{step}</p>))} 
+   </section>     
+  </section>
+);
+}
+function Menu ({title, recipes}){
+return (
+  <article>
+    <header>
+      <h1>{title}</h1>
+    </header>
+    <div className = "recipes">
+      {recipes.map(
+        (recipe, i) => (<Recipe key={i} {...recipe}/>))
+      }
+    </div>
+  </article>
+);
+}
+ReactDOM.render(<Menu recipes={data} title="Zjem zęby na Reactcie"/>, 
+document.getElementById('App'));
+
+</script>
+</body>
+</html>
