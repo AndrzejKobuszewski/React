@@ -1,0 +1,80 @@
+[
+    {
+        "name": "Pieczony łosoś",
+        "ingredients": [
+            {
+                "name": "łosoś",
+                "amount": 1,
+                "measurement": "kg"
+            },
+            {
+                "name": "orzeszki piniowe",
+                "amount": 1,
+                "measurement": "szklanka"
+            },
+            {
+                "name": "sałata",
+                "amount": 2,
+                "measurement": "główka"
+            },
+            {
+                "name": "żółta dynia",
+                "amount": 1,
+                "measurement": "sztuka"
+            },
+            {
+                "name": "oliwa",
+                "amount": 0.5,
+                "measurement": "szklanka"
+            },
+            {
+                "name": "czosnek",
+                "amount": 3,
+                "measurement": "ząbki"
+            }
+        ],
+        "steps": [
+            "Rozgrzej piekarnik do 190 stopni.",
+            "Posmaruj oliwą szklane naczynie żaroodporne.",
+            "Do naczynia włóż łososia, czosnek i orzeszki piniowe.",
+            "Piecz przez 15 minut.",
+            "Do naczynia włóż żółtą dynię i wstaw je do piekarnika na 30 minut.",
+            "Wyjmij z piekarnika. Dodaj sałatę i podaj potrawę."
+        ]
+    },
+    {
+        "name": "Taco rybne",
+        "ingredients": [
+            {
+                "name": "ryba morska o białym mięsie",
+                "amount": 1,
+                "measurement": "kg"
+            },
+            {
+                "name": "ser",
+                "amount": 1,
+                "measurement": "opakowanie"
+            },
+            {
+                "name": "sałata lodowa",
+                "amount": 2,
+                "measurement": "główki"
+            },
+            {
+                "name": "pomidory",
+                "amount": 2,
+                "measurement": "duże"
+            },
+            {
+                "name": "tortilla",
+                "amount": 3,
+                "measurement": "sztuka"
+            }
+        ],
+        "steps": [
+            "Grilluj rybę, aż będzie gotowa do spożycia.",
+            "Umieść rybę na trzech tortillach.",
+            "Udekoruj je sałatą, pomidorami i serem"
+        ]
+    }
+]
