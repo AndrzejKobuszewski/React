@@ -1,0 +1,30 @@
+[
+    {
+        "nameM": "Start",
+        "jsonFilePath": "./startData.json"
+    },
+    {
+        "nameM": "Projects",
+        "jsonFilePath": "./projectsData.json"
+    },
+    {
+        "nameM": "Skills",
+        "jsonFilePath": "./skillsData.json"
+    },
+    {
+        "nameM": "Offer",
+        "jsonFilePath": "./offerData.json"
+    },
+    {
+        "nameM": "Contact",
+        "jsonFilePath": "./contactData.json"
+    },
+    {
+        "nameM": "Biography",
+        "jsonFilePath": "./biographyData.json"
+    },
+    {
+        "nameM": "Proffesional Expirience",
+        "jsonFilePath": "./professionalExpirienceData.json"
+    }
+]

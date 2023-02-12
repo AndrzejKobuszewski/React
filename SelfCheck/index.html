@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Powtarzamy reacta ze zrozumieniem do spodu</title>
+  </head>
+  <body>
+    <div id="App"></div>
+    <script src="https://unpkg.com/react@16.8.6/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16.8.6/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/babel">
+
+      function App({ data }) {
+        return (
+          <p name={"testujemy"} key={1}>
+            {" "}
+            {data} + "Johny be good!"
+          </p>
+        );
+      }
+      ReactDOM.render(<App data={"Andrzej"} />, document.getElementById("App"));
+    </script>
+  </body>
+</html>

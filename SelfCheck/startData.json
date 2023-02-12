@@ -1,0 +1,16 @@
+[
+    {
+        "backGroundSource": ["./pictures/backgroundWalpers/tree.jpg","./pictures/backgroundWalpers/polskaCyfrowa.png"],
+        "profilePhoto": ["./pictures/profilePhotos/powazny.png","./pictures/profilePhotos/usmiechniety.png", "./pictures/profilePhotos/neutralny.jpg" ],
+        "quotations": [
+            {
+                "phrase": "\"Nawet z pozoru najdziwaczniejsza, najskromniejsza pasja jest czymś bardzo, ale to bardzo cennym.\"",
+                "author": "Stephen King"
+            },
+            {
+                "phrase": "\"...\"",
+                "author": ""
+            }
+        ]
+    }
+]

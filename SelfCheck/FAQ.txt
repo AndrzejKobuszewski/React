@@ -1,0 +1,15 @@
+sam react
+
+html
+    <div id="App"></div>
+    <script src="https://unpkg.com/react@16.8.6/umd/react.development.js"> </script>
+    <script src="https://unpkg.com/react-dom@16.8.6/umd/react-dom.development.js"></script>
+
+js
+function App() {
+    return (
+        React.createElement("p", {name: "testujemy", key:1},  "Johny be good!")
+    );
+}
+
+ReactDOM.render(App(), document.getElementById("App"));
