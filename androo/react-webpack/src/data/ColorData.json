@@ -1,0 +1,20 @@
+[
+    {
+    "id":"111",
+     "title": "OCEAN o zmierzchu",
+    "color":"#00c4e2",
+    "rating": 5
+    },
+    
+    {"id":"22",
+     "title": "zielony trawnik",
+    "color":"#26ac56",
+    "rating": 3
+    },
+
+    {"id":"33",
+     "title": "OCEAN o zmierzchu",
+    "color":"#ff0000",
+    "rating": 0
+    }
+]

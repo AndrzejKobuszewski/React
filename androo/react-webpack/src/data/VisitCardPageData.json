@@ -1,0 +1,138 @@
+[
+    {
+    "logopath":"",
+    "logoLiterals":"androo",
+    "language":["english","german","polish"],
+    "colorTheme":"Set the color theme",
+    "colorThemePl":"Ustaw kolory motywu",
+    "colorThemeDe":"Stellen Sie das Farbdesign ein",
+
+    "menu": ["About me","Capabilities", "www Projects", "Library", "Business card","Blog"],
+    "menuPl": ["O mnie","Umiejętności", "Projekty www", "Biblioteka", "Wizytówka","Blog"],
+    "menuDe": ["Über mich","Fähigkeiten", "www Projekte“, „Bibliothek“, „Visitenkarte“, „Blog"],
+
+    "aboutMe": ["../img/AboutMe.png","Hi I'm androo", "Some time ago I developed a few VBA-based tools to support my day-to-day work on some international projects, and since that time I have put my attention toward programming. I graduated from an intensive bootcamp in coding school, and I'm improving my skills by learning on my own. I aim to continue my career as a full-stack JavaScript programmer. I assure you that I will do anything to fulfill your expectations as a software developer."],
+    "aboutMePl": ["Image FILE", "Cześć, jestem androo", "Dążąc do ułatwienia własnej pracy zawodowej stworzyłem narzędzia w VBA i od tamtej pory nieustannie pasjonuje mnie programowanie. Ukończyłem intensywny bootcamp w szkole programowania i od tamtej pory samodzielnie doskonalę swoje umiejętności. Chcę się rozwijać się jako programista full-stack JavaScript. Zapewniam, że sprostam Państwa oczekiwaniom jako programista."],
+    "aboutMeDe": ["Image FILE","Hi, Ich bin androo", "Ich habe einige VBA-basierte Werkzeuge zur Unterstützung meiner Tagesarbeit entwickelt und seitdem widme ich mich dem Programmieren. Mit Vergnügen habe Ich ein intensives Bootcamp an der Software Entwicklers School absolviert und seitdem verbessere ich meine Fähigkeiten auf eigene Faust. Ich möchte meine Karriere als Javascript Full- Stack-Programmierer fortsetzen. Ich kann Ihnen versichern, dass ich persönlich motiviert bin, alles zu tun, um Ihre Erwartungen als Software-Entwickler zu erfüllen."],
+    "personality":["Personality type: Architect","according to Myers-Briggs personality model","https://www.16personalities.com/intj-personality"],
+    "personalityPl":["Typ osobowości: Architekt", "zgodnie z modelem osobowości Myers-Briggs","https://pl.wikipedia.org/wiki/Test_Myers-Briggs"],
+    "personalityDe":["Persönlichkeitstyp: Architekt", "nach Myers-Briggs Persönlichkeitsmodell", "https://de.wikipedia.org/wiki/Myers-Briggs-Typenindikator"],
+
+    "personalityDesc":[["Here are some usefull information why it's worth employing an Architect personality type:"],["Strong Analytical and Strategic Thinking Skills","Architects have a natural talent for analyzing complex problems and developing strategic solutions. They can see the big picture and understand how different elements fit together, allowing them to identify the root causes of problems and develop effective strategies to address them. This makes them an asset in any role that requires critical thinking, problem-solving, and strategic planning."],["Creative and Innovative Thinking","While Architects excel at analytical and strategic thinking, they also have a creative and visionary side. They are always looking for new and innovative ways to approach problems and challenges, and they thrive on exploring new ideas and possibilities. This makes them an asset in roles that require innovation, creativity, and the ability to think outside the box."],["Commitment to Excellence","Architects are driven by a desire to achieve excellence in everything they do. They are always striving to improve their skills and knowledge, and they take pride in their work. This makes them an asset in any role that requires a high degree of attention to detail, quality control, and a commitment to delivering exceptional results"],["Independent and Self-Motivated","Architects are independent thinkers who prefer to work alone or in small groups. They are self-motivated and can work effectively without constant supervision or direction. This makes them an asset in roles that require a high degree of autonomy and self-direction."],["Strategic Vision","Architects are strategic thinkers who can see the big picture and understand how different elements fit together. They are able to identify opportunities and threats, and they can develop long-term plans to achieve organizational goals. This makes them an asset in leadership roles, where they can provide strategic vision and direction for the organization."],["Overall the Architect personality type brings a unique set of skills and qualities to the workplace. Their analytical, strategic, and innovative approach to problem-solving, combined with their commitment to excellence and ability to work independently, make them an asset in a wide range of roles and industries. If you're looking for a talented, self-motivated, and results-driven professional, consider hiring an Architect."]],
+
+    "personalityDescPl":[
+        [
+            "Oto kilka przydatnych informacji, dlaczego warto zatrudnić osobę o typie osobowości Architekt:",
+            "Silne umiejętności analityczne i strategiczne. Architekci posiadają naturalny talent do analizowania skomplikowanych problemów i opracowywania strategicznych rozwiązań. Potrafią zobaczyć całościowy obraz i zrozumieć, jak różne elementy łączą się ze sobą, co pozwala im zidentyfikować główne przyczyny problemów i opracować skuteczne strategie ich rozwiązania. To czyni ich cennym pracownikiem w każdej roli, która wymaga myślenia krytycznego, rozwiązywania problemów i planowania strategicznego."
+        ],
+        [
+            "Kreatywne i innowacyjne myślenie",
+            "Podczas gdy Architekci wyróżniają się umiejętnościami analitycznymi i strategicznymi, posiadają także kreatywny i wizjonerski aspekt. Zawsze szukają nowych i innowacyjnych sposobów na podejście do problemów i wyzwań, a odkrywanie nowych pomysłów i możliwości sprawia im przyjemność. To czyni ich cennym pracownikiem w rolach wymagających innowacyjności, kreatywności i zdolności do myślenia poza schematami."
+        ],
+        [
+            "Zobowiązanie do doskonałości",
+            "Architekci są napędzani chęcią osiągania doskonałości we wszystkim, co robią. Zawsze dążą do doskonalenia swoich umiejętności i wiedzy, a ich praca sprawia im dumę. To czyni ich cennym pracownikiem w każdej roli, która wymaga dużej dbałości o szczegóły, kontroli jakości i zobowiązania do osiągania wyjątkowych wyników."
+        ],
+        [
+            "Niezależność i samodzielność",
+            "Architekci to niezależni myśliciele, którzy preferują pracę samodzielnie lub w małych grupach. Są samodzielnie zmotywowani i potrafią pracować skutecznie bez ciągłego nadzoru lub kierowania. To czyni ich cennym pracownikiem w rolach wymagających dużej autonomii i samodzielności."
+        ],
+        [
+            "Wizja strategiczna",
+            "Architekci to myśliciele strategiczni, którzy potrafią zobaczyć całościowy obraz i zrozumieć, jak różne elementy łączą się ze sobą. Są w stanie zidentyfikować szanse i zagrożenia, a także potrafią opracować długoterminowe plany osiągania celów organizacyjnych. To cz"]],
+
+    "personality-desc-de":[["Hier sind einige nützliche Informationen, warum es sich lohnt, eine Person mit dem Architekten-Persönlichkeitstyp zu beschäftigen:","Starke analytische und strategische Denkfähigkeiten Architekten haben ein natürliches Talent zur Analyse komplexer Probleme und zur Entwicklung strategischer Lösungen. Sie können das große Ganze sehen und verstehen, wie verschiedene Elemente zusammenpassen, was es ihnen ermöglicht, die Ursachen von Problemen zu identifizieren und effektive Strategien zu ihrer Bewältigung zu entwickeln. Dies macht sie zu einer Bereicherung in jeder Position, die kritisches Denken, Problemlösung und strategische Planung erfordert."],
+    ["Kreatives und innovatives Denken","Während Architekten in analytischem und strategischem Denken brillieren, haben sie auch eine kreative und visionäre Seite. Sie suchen immer nach neuen und innovativen Möglichkeiten, Probleme und Herausforderungen anzugehen, und sie gedeihen bei der Erkundung neuer Ideen und Möglichkeiten. Dies macht sie zu einer Bereicherung in Positionen, die Innovation, Kreativität und die Fähigkeit erfordern, über den Tellerrand hinauszudenken."],
+    ["Engagement für Exzellenz","Architekten werden von dem Wunsch angetrieben, Exzellenz in allem, was sie tun, zu erreichen. Sie streben immer danach, ihre Fähigkeiten und ihr Wissen zu verbessern, und sie sind stolz auf ihre Arbeit. Dies macht sie zu einer Bereicherung in jeder Position, die ein hohes Maß an Aufmerksamkeit für Details, Qualitätskontrolle und Engagement für die Lieferung außergewöhnlicher Ergebnisse erfordert."],
+    ["Unabhängig und selbstmotiviert","Architekten sind unabhängige Denker, die lieber alleine oder in kleinen Gruppen arbeiten. Sie sind selbstmotiviert und können effektiv ohne ständige Aufsicht oder Anleitung arbeiten. Dies macht sie zu einer Bereicherung in Positionen, die ein hohes Maß an Autonomie und Selbststeuerung erfordern."],
+    ["Strategische Vision","Architekten sind strategische Denker, die das große Ganze sehen und verstehen können, wie verschiedene Elemente zusammenpassen. Sie sind in der Lage, Chancen und Bedrohungen zu identifizieren und langfristige Pläne zur Erreichung der organisatorischen Ziele zu entwickeln. Dies macht sie zu einer Bereicherung in Führungspositionen, wo sie strategische Vision und Richtung für die Organisation bieten können."],
+    ["Insgesamt bringt der Architekten-Persönlichkeitstyp eine einzigartige Reihe von Fähigkeiten und Qualitäten am Arbeitsplatz mit. Ihre analytische, strategische und innovative Herangehensweise an die Problemlösung, kombiniert mit ihrem Engagement für Exzellenz und ihrer Fähigkeit, unabhängig zu arbeiten, machen sie zu einer Bereicherung in einer Vielzahl von Positionen und Branchen. Wenn Sie einen talentierten, selbstmotivierten und ergebnisorientierten Profi suchen, sollten Sie einen Architekten einstellen."]],
+
+    "technologyKnowledgeLevelTheLegend":["I read some books so that I can demonstrate significant theoretical knowledge", "I applied it in the www project","I feel comfortable in using it","I feel like I can do any task with this technology", "I fully understand it and applied in many www application"],
+
+    "technologyKnowledgeLevelTheLegendPl":["Przeczytałam kilka książek, aby wykazać się wiedzą teoretyczną”, „zastosowałam ją w projekcie www”, „czuję się komfortowo w jej używaniu”, „czuję, że z tą technologią mogę wykonać każde zadanie”, „w pełni rozumiem technikę i zastosowałem ją w wielu aplikacjach www"],
+    "technologyKnowledgeLevelTheLegendDe":["Ich habe einige Bücher gelesen, um bedeutendes theoretisches Wissen zu demonstrieren“, „Ich habe es im WWW-Projekt angewendet“, „Ich fühle mich wohl in der Anwendung“, „Ich habe das Gefühl, dass ich mit dieser Technologie jede Aufgabe bewältigen kann“, „Ich bin voll und ganz verstehen und in vielen WWW-Anwendungen anwenden"],
+
+    "technologies": [["HTML",5,3],["CSS",4,3],["Sass", 4,4],["Bootstrap",4,2],["Javascript",4,2],["JQuery",4,1],["React",3,3],["Vue",2,3],["Jest",1,1],["NodeJS",1,3],["PHP",4,3],["MySQL",3,3],["PHP My Admin",2,3],["Wordpress",4,3],["Elementor",2,1],["Youtube API",1,1],["Facebook API",1,1],["Google translate API",1,1],["VBA",1,1],["Linux",4,4],["IT Service Management",3,4], ["GraphQL",1,0],["RSS",1,1]],
+    "ratingDesc":["I applied technology in "," projects of "," executed projects"],
+    "ratingDescPl":["Zastosowałem technologię w "," projektach z "," wykonanych projektów"],
+    "ratingDescDe":["Ich habe diese Technik verwendet in "," Projekten aus "," abgeschlossenen Projekten"],
+   
+    
+    "wwwProjects":{
+        "":"",
+        "project1":{
+            "title": "We propel Transport 4.0",
+            "titlePl": "Napędzamy Transport 4.0",
+            "titleDe": "Wir treiben Verkehr 4.0 voran",
+            "time": "2018",
+            "Description":"Design of the website of the initiative, the aim of which is to introduce mobility management in Poland based on the cooperation of environments shaping mobility with the leading role of the community using the transport system. The change that the project aims to achieve consists in changing the approach to transport management from BBB (Build Build Build) to an approach in which transport projects compete with each other based on user experience (UX) and measurable performance indicators (KPI) focused on the mobility of Poles and Europeans. The trigger for change is the digital revolution. Current technology allows for obtaining reliable data in real time and therefore special attention is paid to IT systems in transport: GSM-R, ETCS, ITS, SESAR, RIS, VTMIS and social media",
+            "Description-de":"Design der Website der Initiative, deren Ziel es ist, Mobilitätsmanagement in Polen einzuführen, basierend auf der Zusammenarbeit von Umgebungen, die Mobilität gestalten, mit der führenden Rolle der Gemeinschaft, die das Verkehrssystem nutzt. Die Veränderung, die das Projekt anstrebt, besteht darin, den Ansatz des Verkehrsmanagements von BBB (Build Build Build) zu einem Ansatz zu ändern, bei dem Verkehrsprojekte auf der Grundlage von Benutzererfahrung (UX) und messbaren Leistungsindikatoren (KPI) miteinander konkurrieren die Mobilität von Polen und Europäern. Auslöser des Wandels ist die digitale Revolution. Die aktuelle Technologie ermöglicht es, zuverlässige Daten in Echtzeit zu erhalten, und daher wird den IT-Systemen im Verkehr besondere Aufmerksamkeit geschenkt: GSM-R, ETCS, ITS, SESAR, RIS, VTMIS und soziale Medien",
+            "Description-pl": "Projekt strony inicjatywy, której celem jest wprowadzenie zarządzania mobilnością w Polsce opartej na współpracy śrdowisk kształtujących mobilność przy wiodącej roli społeczności korzytającej systemu transportowego. Zmiana, do której dąży projekt polega na zmianie podejścia do zarządzania transportem z BBB (Buduj Buduj Buduj) na podejście, w którym projekty transportowe konkurują ze sobą w oparciu o doświadczenia użytkowników (UX) oraz o mierzalne wskaźniki efektywności (KPI) nastawione na mobilność Polaków i Europejczyków. Wyzwalaczem zmiany jest rewolucja cyfrowa. Obecna technologia pozwala na pozyskiwanie wiarygodnych danych w czasie rzeczywistym i dlatego też szczególną uwagę poświęca się systemom IT w transporcie: GSM-R, ETCS, ITS, SESAR, RIS, VTMIS oraz mediom społecznościowym",
+            "technologies":["HTML", "CSS", "JS","MySQL","MariaDB", "Sass", "Gulp", "Wordpress", "PHP", "YouTube API", "RSS"],
+            "githublink": "https://github.com/AndrzejKobuszewski/NT4.git",
+            "screenshot": "https://github.com/AndrzejKobuszewski/NT4/blob/master/wp-content/themes/NapedzamyTransport/images/screenshot_mini.png?raw=true"
+        },
+        "project2":{
+            "title": "TourFast Warsaw",
+            "time": "2019",
+            "Description": "Website created for a start-up offering quick sightseeing of the capital city of Warsaw in a modern and fast way on electric scooters.",
+            "DescriptionPl": "Witryna zrealizowana dla start-upu, oferującego szybkie zwiedzanie miasta stołecznego Warszawy w nowoczesny i szybki sposób na hulajnogach elektrycznych.",
+            "DescriptionDe": "Für ein Start-up erstellte Website, die eine schnelle Besichtigung der Hauptstadt Warschau auf moderne und schnelle Weise mit Elektrorollern bietet.",
+            "technologies":["HTML", "CSS", "JS"],
+            "githublink": ""
+        },
+        "project3":{
+            "title": "MyResumee",
+            "time": "Description",
+            "Description": "",
+            "technologies":["HTML", "CSS", "JS"],
+            "githublink": ""
+        },
+        "project4":{
+            "title": "Recruiment Task 1",
+            "time": "Description",
+            "Description": "",
+            "technologies":["HTML", "CSS", "JS"],
+            "githublink": ""
+        },
+        "project5":{
+            "title": "Recruiment Task 2",
+            "time": "Description",
+            "Description": "",
+            "technologies":["HTML", "CSS", "JS"],
+            "githublink": ""
+        },
+        "project6":{
+            "title": "Recruiment Task 3",
+            "time": "Description",
+            "Description": "",
+            "technologies":["HTML", "CSS", "JS"],
+            "githublink": ""
+        },
+        "project7":{
+            "title": "Emily",
+            "time": "Description",
+            "Description": "",
+            "technologies":["HTML", "CSS", "JS"],
+            "githublink": ""
+        },
+
+        "project8":{
+            "title": "androo",
+            "time": "Description",
+            "Description": "",
+            "technologies":["HTML", "CSS", "JS"],
+            "githublink": ""
+        }
+
+    },
+    "articles": {
+        "article1": ["Image FILE","Title","Content"],
+        "article1-pl": ["Image FILE","Title","Content"],
+        "article1-de": ["Image FILE","Title","Content"],
+        "article2": ["Image FILE","Title","Content"]
+    }
+    
+    }
+]
