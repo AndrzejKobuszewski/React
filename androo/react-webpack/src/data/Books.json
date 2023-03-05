@@ -1,0 +1,49 @@
+[
+    {
+        "coverFrontsource": "./img/React4jobseekers.png",
+        "coverBacksource":  "",
+        "title":        "ReactJS for Jobseekers: The Only Guide You Need to Learn React and Crack Interviews",
+        "authors":        "Qaifi Khan ",
+        "version":        "version 1",
+        "year":        "year 2023",
+        "description": ""
+    },
+    {
+        "coverFrontsource": "./img/LearningReact.png",
+        "coverBacksource":  "",
+        "title":        "JavaScript from Beginner to Professional: Learn JavaScript quickly by building fun, interactive, and dynamic web apps, games, and pages",
+        "authors":        "Alex Banks, Eve Porcello",
+        "version":        "version 2",
+        "year":        "year 2021",
+        "description": ""
+    },
+    {
+        
+        "coverFrontsource": "./img/jspackt.png",
+        "coverBacksource":  "",
+        "title":        "React od podstaw. Nowoczesne wzorce tworzenia aplikacji",
+        "authors":        " Laurence Lars Svekis, Maaike van Putten, Rob Percival ",
+        "version":        "version 1",
+        "year":        "year 2021",
+        "description": ""
+    },
+    {
+        "coverFrontsource": "./img/JSTheDefinitiveGuide.png",
+        "coverBacksource":  "",
+        "title":        "JavaScript The Definitive Guide",
+        "authors":        "David Falanagan",
+        "version":        "version 7",
+        "year":        "year 2020",
+        "description":""
+    },
+  { 
+    "coverFrontsource": "./img/eloquentJS.png",
+    "coverBacksource":  "",
+    "title":        "Eloquent JavaScript, 3rd Edition: A Modern Introduction to Programming 3rd Edition",
+    "authors":        "Marijn Haverbeke",
+    "version":        "version 3",
+    "year":        "year 2018",
+    "description":""
+  }
+    
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "technologyKnowledgeLevelTheLegend": [
+      "I read some books so that I can demonstrate significant theoretical knowledge",
+      "I applied it in the www project",
+      "I feel comfortable in using it",
+      "I feel like I can do any task with this technology",
+      "I fully understand it and applied in many www application"
+    ],
+
+    "technologyKnowledgeLevelTheLegendPl": [
+      "Przeczytałam kilka książek, aby wykazać się wiedzą teoretyczną”, „zastosowałam ją w projekcie www”, „czuję się komfortowo w jej używaniu”, „czuję, że z tą technologią mogę wykonać każde zadanie”, „w pełni rozumiem technikę i zastosowałem ją w wielu aplikacjach www"
+    ],
+    "technologyKnowledgeLevelTheLegendDe": [
+      "Ich habe einige Bücher gelesen, um bedeutendes theoretisches Wissen zu demonstrieren“, „Ich habe es im WWW-Projekt angewendet“, „Ich fühle mich wohl in der Anwendung“, „Ich habe das Gefühl, dass ich mit dieser Technologie jede Aufgabe bewältigen kann“, „Ich bin voll und ganz verstehen und in vielen WWW-Anwendungen anwenden"
+    ],
+
+    "technologies": [
+      ["HTML", 5, 8],
+      ["CSS", 4, 8],
+      ["Sass", 4, 4],
+      ["Bootstrap", 4, 2],
+      ["Javascript", 4, 8],
+      ["JQuery", 4, 1],
+      ["React", 3, 3],
+      ["Vue", 2, 3],
+      ["Jest", 1, 1],
+      ["NodeJS", 1, 3],
+      ["PHP", 4, 5],
+      ["MySQL", 3, 4],
+      ["PHP My Admin", 2, 4],
+      ["Wordpress", 4, 4],
+      ["Elementor", 2, 1],
+      ["Youtube API", 1, 1],
+      ["Facebook API", 1, 1],
+      ["Google translate API", 1, 1],
+      ["VBA", 2, 2],
+      ["Linux", 4, 4],
+      ["GraphQL", 1, 0],
+      ["RSS", 1, 1],
+      ["Google Analytics", 1, 1]
+    ],
+    "ratingDesc": [
+      "I applied technology in ",
+      " projects of ",
+      " executed projects"
+    ],
+    "ratingDescPl": [
+      "Zastosowałem technologię w ",
+      " projektach z ",
+      " wykonanych projektów"
+    ],
+    "ratingDescDe": [
+      "Ich habe diese Technik verwendet in ",
+      " Projekten aus ",
+      " abgeschlossenen Projekten"
+    ]
+  }
+]

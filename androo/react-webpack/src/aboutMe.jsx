@@ -1,8 +1,8 @@
 import React from "react";
-import data from "../src/data/VisitCardPageData.json";
+import data from "../src/data/aboutme.json";
 
 const AboutMe = () => <div>
-                    <img src='https://media.licdn.com/dms/image/C4E03AQFQgHxN1bOffQ/profile-displayphoto-shrink_200_200/0/1651062257424?e=1681948800&v=beta&t=y8FtfG6LBwlEVu34dSGQfkvrJvWo1KuPuBT9BxJzxu4' style={{width: '32%'}}></img>
+                    <img src={data[0].aboutMe[0]} style={{width: '32%'}}></img>
                     <div>
                     <h3><b>
                     {data[0].aboutMe[1]}
