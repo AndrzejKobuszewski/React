@@ -2,38 +2,37 @@
   {
     "aboutMe": [
       "./img/aboutme.png",
-      "Hi I'm androo",
+      "Hi I'm androoIT",
       "Some time ago I developed a few VBA-based tools to support my day-to-day work on some international projects, and since that time I have put my attention toward programming. I graduated from an intensive bootcamp in coding school, and I'm improving my skills by learning on my own. I aim to continue my career as a full-stack JavaScript programmer. I assure you that I will do anything to fulfill your expectations as a software developer."
     ],
     "aboutMePl": [
       "Image FILE",
-      "Cześć, jestem androo",
+      "Cześć, jestem androoIT",
       "Dążąc do ułatwienia własnej pracy zawodowej stworzyłem narzędzia w VBA i od tamtej pory nieustannie pasjonuje mnie programowanie. Ukończyłem intensywny bootcamp w szkole programowania i od tamtej pory samodzielnie doskonalę swoje umiejętności. Chcę się rozwijać się jako programista full-stack JavaScript. Zapewniam, że sprostam Państwa oczekiwaniom jako programista."
     ],
     "aboutMeDe": [
       "Image FILE",
-      "Hi, Ich bin androo",
+      "Hi, Ich bin androoIT",
       "Ich habe einige VBA-basierte Werkzeuge zur Unterstützung meiner Tagesarbeit entwickelt und seitdem widme ich mich dem Programmieren. Mit Vergnügen habe Ich ein intensives Bootcamp an der Software Entwicklers School absolviert und seitdem verbessere ich meine Fähigkeiten auf eigene Faust. Ich möchte meine Karriere als Javascript Full- Stack-Programmierer fortsetzen. Ich kann Ihnen versichern, dass ich persönlich motiviert bin, alles zu tun, um Ihre Erwartungen als Software-Entwickler zu erfüllen."
     ],
     "personality": [
-      "Personality type: Architect",
+      "My personality type is an Architect",
       "according to Myers-Briggs personality model",
       "https://www.16personalities.com/intj-personality"
     ],
     "personalityPl": [
-      "Typ osobowości: Architekt",
+      "Moim typem osobowości jest Architekt",
       "zgodnie z modelem osobowości Myers-Briggs",
       "https://pl.wikipedia.org/wiki/Test_Myers-Briggs"
     ],
     "personalityDe": [
-      "Persönlichkeitstyp: Architekt",
+      "Mein Persönlichkeitstyp ist ein Architekt",
       "nach Myers-Briggs Persönlichkeitsmodell",
       "https://de.wikipedia.org/wiki/Myers-Briggs-Typenindikator"
     ],
-
     "personalityDesc": [
       [
-        "Here are some usefull information why it's worth employing an Architect personality type:"
+        "It's worth employing an Architect personality type:"
       ],
       [
         "Strong Analytical and Strategic Thinking Skills",
@@ -59,10 +58,9 @@
         "Overall the Architect personality type brings a unique set of skills and qualities to the workplace. Their analytical, strategic, and innovative approach to problem-solving, combined with their commitment to excellence and ability to work independently, make them an asset in a wide range of roles and industries. If you're looking for a talented, self-motivated, and results-driven professional, consider hiring an Architect."
       ]
     ],
-
     "personalityDescPl": [
       [
-        "Oto kilka przydatnych informacji, dlaczego warto zatrudnić osobę o typie osobowości Architekt:",
+        "Warto zatrudnić osobę o typie osobowości Architekt:",
         "Silne umiejętności analityczne i strategiczne. Architekci posiadają naturalny talent do analizowania skomplikowanych problemów i opracowywania strategicznych rozwiązań. Potrafią zobaczyć całościowy obraz i zrozumieć, jak różne elementy łączą się ze sobą, co pozwala im zidentyfikować główne przyczyny problemów i opracować skuteczne strategie ich rozwiązania. To czyni ich cennym pracownikiem w każdej roli, która wymaga myślenia krytycznego, rozwiązywania problemów i planowania strategicznego."
       ],
       [
@@ -82,10 +80,9 @@
         "Architekci to myśliciele strategiczni, którzy potrafią zobaczyć całościowy obraz i zrozumieć, jak różne elementy łączą się ze sobą. Są w stanie zidentyfikować szanse i zagrożenia, a także potrafią opracować długoterminowe plany osiągania celów organizacyjnych. To cz"
       ]
     ],
-
     "personalityDescDe": [
       [
-        "Hier sind einige nützliche Informationen, warum es sich lohnt, eine Person mit dem Architekten-Persönlichkeitstyp zu beschäftigen:",
+        "Es sich lohnt, eine Person mit dem Architekten-Persönlichkeitstyp zu beschäftigen:",
         "Starke analytische und strategische Denkfähigkeiten Architekten haben ein natürliches Talent zur Analyse komplexer Probleme und zur Entwicklung strategischer Lösungen. Sie können das große Ganze sehen und verstehen, wie verschiedene Elemente zusammenpassen, was es ihnen ermöglicht, die Ursachen von Problemen zu identifizieren und effektive Strategien zu ihrer Bewältigung zu entwickeln. Dies macht sie zu einer Bereicherung in jeder Position, die kritisches Denken, Problemlösung und strategische Planung erfordert."
       ],
       [

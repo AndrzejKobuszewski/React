@@ -4,10 +4,10 @@ const Book = ({dane=data, coverFrontsource = "coverFrontsource", coverBacksource
 dane.map((n,i)=><p key ={i}> 
    <div>
         <div>
-           <img src= {n.coverFrontsource}></img>
+           <img src= {n.coverFrontsource} style={{ width: '30%' }} ></img>
         </div>
         <div>
-            {toString(n.coverBacksource) ==false ? <img src= {n.coverFrontsource}></img>: <p>no preview available</p>}
+            {toString(n.coverBacksource) ==false ? <img src= {n.coverFrontsource} style={{ width: '30%' }}></img>: <p>no preview available</p>}
         </div>
         <div>
             <h4>{n.title} version: {n.version} </h4>
