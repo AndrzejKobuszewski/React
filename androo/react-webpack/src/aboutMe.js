@@ -1,6 +1,7 @@
 import React from "react";
 import data from "./data/aboutme.json";
-import { useState } from "react";
+import { useContext, useState } from "react";
+import {ColorContext} from './VisitCardPage';
 
 const Introduction = ({ move = (f) => f }) => (
   <div>
@@ -34,7 +35,7 @@ const PersonalityShort = ({
         <b>{data[0].personality[0]}</b>
       </h3>
       <subhead>
-        <a href={data[0].personality[2]} alt="Wikipedia def.">
+        <a href={data[0].personality[2]} style={{textDecoration: 'none',color: 'currentColor'}} alt="Wikipedia def.">
           <sup> {data[0].personality[1]}</sup>
         </a>
       </subhead>
@@ -79,17 +80,35 @@ const PersonalitySummary = () => (
   </div>
 );
 
-function AboutMe({ talk = "Introduction", thinkCloud = "noThink", noSet=[] }) {
+function AboutMe({ talk = "Introduction", thinkCloud = "noThink", noSet=[],mode }) {
   const [subject, setSubject] = useState(talk);
   const [think, setThink] = useState(thinkCloud);
   const [readSet,setReadSet] = useState(noSet)
-  
+  const {colors} = useContext(ColorContext);
 
+  function handleThemes (mode){
+    switch (mode){
+    case 'regular':
+     const regularStyle = {"backgroud-color": "black",};
+     return regularStyle      
+  
+    case 'contrast':
+     "black"   
+        break;
+    case 'dark':
+      "black"   
+    break;
+
+      default:
+        colors[1]
+        break;
+    }
+  }
   return (
     <>
       <div className="AboutMe">
         {subject == "Introduction" ? (
-          <article className="speak" style={{ maxWidth: "34%" }}>
+          <article className="speak" style={{ maxWidth: "34%", background: 'linear-gradient(90deg, rgba(255, 255, 255, 0.678) 0%, '+ colors[2]+' 15%,rgba(255, 255, 255, 0.659) 100%)'}}>
             <Introduction
               move={() =>
                 subject == "Introduction"
@@ -101,8 +120,9 @@ function AboutMe({ talk = "Introduction", thinkCloud = "noThink", noSet=[] }) {
         ) : (
           <>
             <div>
-              <article className="speak">
-                <PersonalityShort
+              <article className="speak" style={{background: 'linear-gradient(90deg, rgba(255, 255, 255, 0.678) 0%, '
+              + colors[2]+' 15%,rgba(255, 255, 255, 0.659) 100%)'}}>
+              <PersonalityShort
                   move={() =>
                     subject == "Introduction"
                       ? (setSubject("Personality"))
@@ -119,11 +139,12 @@ function AboutMe({ talk = "Introduction", thinkCloud = "noThink", noSet=[] }) {
             </div>
 
             <div className="personality">
-              <article className="think">
-                <FeatureDesc think={think}/>
+              <article className="think" style = {handleThemes(mode)}>
+                <FeatureDesc  think={think}/>
               </article>
               {readSet.length==5?
-              <article className="sumUp">
+              <article className="sumUp" style={{background: 'linear-gradient(90deg, rgba(255, 255, 255, 0.678) 0%,'
+              + colors[2]+' 15%,rgba(255, 255, 255, 0.659) 100%)'}}>
                 <PersonalitySummary readSet={readSet}/>
               </article>:null}
             </div>

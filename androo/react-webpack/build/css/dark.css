@@ -1,0 +1,24 @@
+body {
+  background-color: black;
+}
+#root {
+    margin: 0px 35px;
+    box-sizing: border-box;
+  
+    background-image: url("/img/aboutmeDarkmode.png");
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 7px;
+    min-height: 99vh;
+    color: rgb(227, 227, 227);
+  }
+.Logo {
+  color: beige;
+}
+article[class="think"]{
+  /* max-width: 68%;
+  left:32%; */
+  background-color: rgb(39, 39, 39);
+}

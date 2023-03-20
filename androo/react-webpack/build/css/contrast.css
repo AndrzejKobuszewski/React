@@ -1,0 +1,41 @@
+
+#root {
+    margin: 0px 35px;
+    box-sizing: border-box;
+  
+    background-image: url("/img/aboutmeContrast.png");
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 7px;
+    min-height: 99vh;
+    color: yellowgreen;
+    font-size: x-large;
+    line-height: 1.2em;
+    font-weight: bolder;
+
+  }
+
+userchoices{
+background-color: rgb(36, 34, 34);
+}
+.Logo {
+  background-color: beige;
+}
+h5 {
+  color:rgb(54, 54, 54);
+  font-size: x-large;
+  line-height: 1.2em;
+}
+article[class="think"]{
+  max-width: 68%;
+  left:32%;
+  background-color: rgb(39, 39, 39);
+}
+article p {
+  line-height: 1.4em;
+}
+article[class="speak"] {
+  color:rgb(54, 54, 54)
+}
