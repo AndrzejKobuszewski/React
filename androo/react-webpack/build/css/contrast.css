@@ -24,7 +24,7 @@ background-color: rgb(36, 34, 34);
   background-color: beige;
 }
 h5 {
-  color:rgb(54, 54, 54);
+  
   font-size: x-large;
   line-height: 1.2em;
 }
@@ -35,7 +35,4 @@ article[class="think"]{
 }
 article p {
   line-height: 1.4em;
-}
-article[class="speak"] {
-  color:rgb(54, 54, 54)
 }

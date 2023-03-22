@@ -1,6 +1,12 @@
 [{
-    "colorLabels":[["Font color","#884943"], ["Background color","#F5F5F5"], ["Background gradient color","#2BCC37"]],
-    "buttonlabels":["Accept", "Reject"]
+    "colorLabels":[["Font color","#884943"], ["Background color","#F5F5F5"], ["Text background color","#2BCC40"]],
+    "buttonlabels":["Accept", "Reject"]},
+    {
+    "colorLabels":[["Kolor czcionki","#884943"], ["Kolor tła","#F5F5F5"], ["Kolor podkładu tekstu","#2BCC37"]],
+    "buttonlabels":["Zastosuj", "Odrzuć"]},
+    {
+    "colorLabels":[["Schriftfarbe","#884943"], ["Hintergrundfarbe","#F5F5F5"], ["Hintergrundfarbe des Textes","#2BCC37"]],
+    "buttonlabels":["Acceptieren", "Ablehnen"]
 }
 ]
 

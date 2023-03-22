@@ -1,0 +1,23 @@
+[
+{
+    "logopath":"",
+    "logoLiterals":"androoIt",
+    "language":["english","Deutsch","polski"],
+    "colorTheme":"Set the color theme",
+    "colorThemePl":"Ustaw kolory motywu",
+    "colorThemeDe":"Stellen Sie das Farbdesign ein",
+
+    "contrast":"contrast version",
+    "contrastDe":"Kontrastversion",
+    "contrastPl":"Wersja kontrastowa",
+
+    "darkmode":"darkmode",
+    "darkmodePl":"tryb ciemny",
+    "darkmodeDe":"Modus dunkel",
+
+    "menu": ["About me","Technologies", "www Projects", "Library", "Blog"],
+    "menuPl": ["O mnie","Technologie", "Projekty www", "Biblioteka", "Blog"],
+    "menuDe": ["Über mich","Technologien", "www Projekte“, „Bibliothek“, „Blog"]
+}
+
+]

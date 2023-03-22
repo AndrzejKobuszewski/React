@@ -1,8 +1,8 @@
 import React from "react";
 import { useContext } from "react";
 import ColorsForm from "./ColorsForm";
-import data from "./data/VisitCardPageData.json";
-import {ColorContext} from './VisitCardPage';
+import header from "./data/header.json";
+import {ColorContext, LanguageContext} from './VisitCardPage';
 
 
 export function Logo() {
@@ -33,14 +33,14 @@ export function Logo() {
   );
 }
 
-const LightTheme = ({changeModeContrast =(f)=>f, changeModeDark =(f)=>f  }) => (
+const LightTheme = ({changeModeContrast =(f)=>f, changeModeDark =(f)=>f, data  }) => (
   <div style={{ display: "grid", marginTop: "-4px", lineHeight: '1.1rem', borderRadius: '5px', backgroundColor: '#f6f6f680'}}>
     <div className="contrastVersion" >
-    <label for="contrastTheme">contrast version</label>
+    <label for="contrastTheme">{data[0].contrast}</label>
     <input type="checkbox" id="contrastTheme" name="contrastTheme" onChange={()=>changeModeContrast()}></input>
     </div>
     <div>
-    <label for="lightTheme"> darkmode</label>
+    <label for="lightTheme"> {data[0].darkmode} </label>
     <input type="checkbox" id="lightTheme" name="lightTheme" onChange={()=>changeModeDark()}></input>
     </div>
   </div>
@@ -54,19 +54,26 @@ const ColorTheme = ({ dane,  changeModeRegular =(f)=>f}) => (
     <ColorsForm className="colorForms"/>
   </>
 );
-const Language = ({ dane }) => (
-  <select name="lang" id="lang">
-    {dane[0].language.map((langabbr) => (
-      <option>{langabbr}</option>
-    ))}
-  </select>
-);
+
+function Language({ dane, changeLanguage = (f) => f }) {
+  const {lang,setLang}=useContext(LanguageContext);
+  function changeLanguage(e){
+    setLang(e)
+  }
+  return (
+    <select onChange={(e) => changeLanguage(e.target.value)} name="lang" id="lang">
+      {dane[0].language.map((langabbr) => (
+        <option>{langabbr}</option>
+      ))}
+    </select>
+  );
+}
 const WebOptions = ({changeModeRegular={changeModeRegular}, changeModeContrast={changeModeContrast}, changeModeDark={changeModeDark}}) => (
   <>
   
-    <LightTheme changeModeContrast={changeModeContrast} changeModeDark={changeModeDark} style={{width: "175px"}}/>
-    <ColorTheme changeModeRegular={changeModeRegular} dane={data} style={{width: "175px"}}/>
-    <Language dane={data} style={{width: "175px"}}/>
+    <LightTheme data={header} changeModeContrast={changeModeContrast} changeModeDark={changeModeDark} style={{width: "175px"}}/>
+    <ColorTheme changeModeRegular={changeModeRegular} dane={header} style={{width: "175px"}}/>
+    <Language dane={header} style={{width: "175px"}}/>
   </>
 );
 
@@ -87,13 +94,13 @@ const {colors, setColors} = useContext(ColorContext);
   return (
     <headerBar changeModeRegular={changeModeRegular} changeModeContrast={changeModeContrast} changeModeDark={changeModeDark}>
       <div className="Logo">
-        <Logo dane={data} />
+        <Logo />
       </div>
       <userChoices changeModeRegular={changeModeRegular} changeModeContrast={changeModeContrast} changeModeDark={changeModeDark}>
         <div  style={{borderColor: colors[0]}} className="WebOptions">
           <WebOptions changeModeRegular={changeModeRegular} changeModeContrast={changeModeContrast} changeModeDark={changeModeDark}/>
         </div>
-        <MenuList dane={data} changePage={changePage} />
+        <MenuList dane={header} changePage={changePage} />
       </userChoices>
     </headerBar>
   );

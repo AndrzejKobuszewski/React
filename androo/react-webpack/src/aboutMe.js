@@ -86,42 +86,49 @@ function AboutMe({ talk = "Introduction", thinkCloud = "noThink", noSet=[],mode 
   const [readSet,setReadSet] = useState(noSet)
   const {colors} = useContext(ColorContext);
 
-  function handleThemes (mode){
+  function handleThemes (mode, colors,i){
+    
     switch (mode){
     case 'regular':
-     const regularStyle = {"backgroud-color": "black",};
+     const regularStyle = `${colors[i]}`;
      return regularStyle      
   
     case 'contrast':
-     "black"   
+      const contrastStyle = "#393939";
+      return contrastStyle    
         break;
     case 'dark':
-      "black"   
+      const darkStyle = "#393939";
+      return darkStyle    
+        break; 
     break;
-
       default:
-        colors[1]
+        `${colors[i]}`
         break;
     }
   }
+
+  const stylesThink = {backgroundColor: handleThemes(mode, colors, 1), opacity: "82%"};
+  
+  const stylesSpeakSumUp = {backgroundColor: handleThemes(mode, colors, 2), opacity: "82%"};
+
   return (
     <>
       <div className="AboutMe">
         {subject == "Introduction" ? (
-          <article className="speak" style={{ maxWidth: "34%", background: 'linear-gradient(90deg, rgba(255, 255, 255, 0.678) 0%, '+ colors[2]+' 15%,rgba(255, 255, 255, 0.659) 100%)'}}>
+          <article className="speak" style={stylesSpeakSumUp}>
             <Introduction
               move={() =>
                 subject == "Introduction"
                   ? (setSubject("Personality"), setReadSet([]))
                   : (setSubject("Introduction"),setReadSet([]))
               }
-            />
+            /> 
           </article>
         ) : (
           <>
             <div>
-              <article className="speak" style={{background: 'linear-gradient(90deg, rgba(255, 255, 255, 0.678) 0%, '
-              + colors[2]+' 15%,rgba(255, 255, 255, 0.659) 100%)'}}>
+              <article className="speak" style={stylesSpeakSumUp}>
               <PersonalityShort
                   move={() =>
                     subject == "Introduction"
@@ -139,12 +146,11 @@ function AboutMe({ talk = "Introduction", thinkCloud = "noThink", noSet=[],mode 
             </div>
 
             <div className="personality">
-              <article className="think" style = {handleThemes(mode)}>
+              <article className="think" style = {stylesThink}>
                 <FeatureDesc  think={think}/>
               </article>
               {readSet.length==5?
-              <article className="sumUp" style={{background: 'linear-gradient(90deg, rgba(255, 255, 255, 0.678) 0%,'
-              + colors[2]+' 15%,rgba(255, 255, 255, 0.659) 100%)'}}>
+              <article className="sumUp" style={stylesSpeakSumUp}>
                 <PersonalitySummary readSet={readSet}/>
               </article>:null}
             </div>

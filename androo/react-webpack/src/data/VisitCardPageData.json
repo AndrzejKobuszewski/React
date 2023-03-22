@@ -1,19 +1,16 @@
 [
     {
-    "logopath":"",
-    "logoLiterals":"androIt",
-    "language":["english","german","polish"],
-    "colorTheme":"Set the color theme",
-    "colorThemePl":"Ustaw kolory motywu",
-    "colorThemeDe":"Stellen Sie das Farbdesign ein",
+    
+    
+    
+
+
+
 
     "menu": ["About me","Technologies", "www Projects", "Library", "Blog"],
     "menuPl": ["O mnie","Technologie", "Projekty www", "Biblioteka", "Blog"],
     "menuDe": ["Über mich","Technologien", "www Projekte“, „Bibliothek“, „Blog"],
-
-    
-
-   
+       
     "wwwProjectsIntro":"Here are some basic information about the projects I made. You can view some details by clicking at thumbinals, which will guide you to the website or click for more details at github icon.",
     "wwwProjectsIntroPl":"Poniżej zamieszczono kilka podstawowych informacji o projektach, które wykonałem. Możesz wyświetlić niektóre szczegóły, klikając miniatury, które poprowadzą Cię do witryny lub kliknij, aby uzyskać więcej informacji, na ikonie github.",
     "wwwProjectsIntroDe":"Nachfolgend finden Sie einige grundlegende Informationen über die Projekte, die ich gemacht habe. Sie können einige Details anzeigen, indem Sie auf die Miniaturansichten klicken, die Sie zur Website führen, oder klicken Sie für weitere Informationen auf das Github-Symbol.",

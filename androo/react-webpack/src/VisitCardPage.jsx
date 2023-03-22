@@ -12,14 +12,15 @@ ColorsFormdata[0].colorLabels.map((n,i)=>n.map((m,j)=>j%2==1?(startColorsArray.p
 return startColorsArray.splice(2,3);}
 
 export  const ColorContext = createContext();
+export  const LanguageContext = createContext();
 
 function VisitCardPage({startPage=dane[0].menu[0], startColors= CreatetartColorsArray()})
  { 
   const [page, setPage] = useState(startPage);
   const [colors, setColors]=useState(startColors);
-  const [mode,setMode]=useState();
+  const [mode,setMode]=useState('regular');
+  const [lang, setLang]=useState('english')
 
-  let regularLink = document.getElementById('regular');
   let contrastLink = document.getElementById('contrast');
   let darkLink = document.getElementById('dark');  
 
@@ -53,16 +54,20 @@ function VisitCardPage({startPage=dane[0].menu[0], startColors= CreatetartColors
     darkLink.rel="t");
    
    }
-
+ 
   return (
     <>
       <ColorContext.Provider value = {{colors, setColors}}>
-        <Header changePage={(MenuItem)=>setPage(MenuItem)} changeModeContrast={()=>changeModeContrast()}
-        changeModeDark={()=>changeModeDark()}     changeModeRegular={()=>changeModeRegular()}  
-        >
-        </Header>
-        <Container page={page} mode={mode}></Container>
-        <Footer></Footer>
+        <LanguageContext.Provider value={{lang, setLang}}>
+
+          <Header changePage={(MenuItem)=>setPage(MenuItem)} changeModeContrast={()=>changeModeContrast()}
+          changeModeDark={()=>changeModeDark()}  changeModeRegular={()=>changeModeRegular()}  
+          >
+          </Header>
+          <Container page={page} mode={mode}></Container>
+          <Footer></Footer>
+        </LanguageContext.Provider>
+
       </ColorContext.Provider>
       
     </>
