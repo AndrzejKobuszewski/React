@@ -1,11 +1,14 @@
 import React from "react";
 import data from '../src/data/VisitCardPageData.json';
 import Book from './Book.jsx';
+import booksData from '../src/data/Books.json';
+import codeLanguageToNumber from "./codeLanguageToNumber";
 
-const Books = () => 
+
+const Books = ({number=codeLanguageToNumber(), page={page}}) => 
 <>
-<h3>{data[0].menu[3]}</h3>
-<h4>{data[0].recommendedBooksIntro}</h4>
+<h3>{page}</h3>
+<h4>{booksData[0].recommendedBooksIntro[number]}</h4>
 <article><Book/></article>
 </>
 export default Books;

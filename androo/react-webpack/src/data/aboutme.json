@@ -5,30 +5,10 @@
       "Hi I'm androoIT",
       "Some time ago I developed a few VBA-based tools to support my day-to-day work on some international projects, and since that time I have put my attention toward programming. I graduated from an intensive bootcamp in coding school, and I'm improving my skills by learning on my own. I aim to continue my career as a full-stack JavaScript programmer. I assure you that I will do anything to fulfill your expectations as a software developer."
     ],
-    "aboutMePl": [
-      "Image FILE",
-      "Cześć, jestem androoIT",
-      "Dążąc do ułatwienia własnej pracy zawodowej stworzyłem narzędzia w VBA i od tamtej pory nieustannie pasjonuje mnie programowanie. Ukończyłem intensywny bootcamp w szkole programowania i od tamtej pory samodzielnie doskonalę swoje umiejętności. Chcę się rozwijać się jako programista full-stack JavaScript. Zapewniam, że sprostam Państwa oczekiwaniom jako programista."
-    ],
-    "aboutMeDe": [
-      "Image FILE",
-      "Hi, Ich bin androoIT",
-      "Ich habe einige VBA-basierte Werkzeuge zur Unterstützung meiner Tagesarbeit entwickelt und seitdem widme ich mich dem Programmieren. Mit Vergnügen habe Ich ein intensives Bootcamp an der Software Entwicklers School absolviert und seitdem verbessere ich meine Fähigkeiten auf eigene Faust. Ich möchte meine Karriere als Javascript Full- Stack-Programmierer fortsetzen. Ich kann Ihnen versichern, dass ich persönlich motiviert bin, alles zu tun, um Ihre Erwartungen als Software-Entwickler zu erfüllen."
-    ],
     "personality": [
       "My personality type is an Architect",
       "according to Myers-Briggs personality model",
       "https://www.16personalities.com/intj-personality"
-    ],
-    "personalityPl": [
-      "Moim typem osobowości jest Architekt",
-      "zgodnie z modelem osobowości Myers-Briggs",
-      "https://pl.wikipedia.org/wiki/Test_Myers-Briggs"
-    ],
-    "personalityDe": [
-      "Mein Persönlichkeitstyp ist ein Architekt",
-      "nach Myers-Briggs Persönlichkeitsmodell",
-      "https://de.wikipedia.org/wiki/Myers-Briggs-Typenindikator"
     ],
     "personalityDesc": [
       [
@@ -57,10 +37,22 @@
       [
         "Overall the Architect personality type brings a unique set of skills and qualities to the workplace. Their analytical, strategic, and innovative approach to problem-solving, combined with their commitment to excellence and ability to work independently, make them an asset in a wide range of roles and industries. If you're looking for a talented, self-motivated, and results-driven professional, consider hiring an Architect."
       ]
+    ]
+  },
+  {
+    "aboutMe": [
+      "Image FILE",
+      "Cześć, jestem androoIT",
+      "Dążąc do ułatwienia własnej pracy zawodowej stworzyłem narzędzia w VBA i od tamtej pory nieustannie pasjonuje mnie programowanie. Ukończyłem intensywny bootcamp w szkole programowania i od tamtej pory samodzielnie doskonalę swoje umiejętności. Chcę się rozwijać się jako programista full-stack JavaScript. Zapewniam, że sprostam Państwa oczekiwaniom jako programista."
     ],
-    "personalityDescPl": [
-      [ "Kliknij na wszystkiem moje silne strony, aby dowiedzieć się więcej:"
-
+    "personality": [
+      "Moim typem osobowości jest Architekt",
+      "zgodnie z modelem osobowości Myers-Briggs",
+      "https://pl.wikipedia.org/wiki/Test_Myers-Briggs"
+    ],
+    "personalityDesc": [
+      [
+        "Kliknij na wszystkiem moje silne strony, aby dowiedzieć się więcej:"
       ],
       [
         "Silne umiejętności analityczne i strategiczne",
@@ -80,12 +72,25 @@
       ],
       [
         "Wizja strategiczna",
-        "Architekci to myśliciele strategiczni, którzy potrafią zobaczyć całościowy obraz i zrozumieć, jak różne elementy łączą się ze sobą. Są w stanie zidentyfikować szanse i zagrożenia, a także potrafią opracować długoterminowe plany osiągania celów organizacyjnych. To cz"
-      ]
+        "Architekci to myśliciele strategiczni, którzy potrafią zobaczyć całościowy obraz i zrozumieć, jak różne elementy łączą się ze sobą. Są w stanie zidentyfikować szanse i zagrożenia, a także potrafią opracować długoterminowe plany osiągania celów organizacyjnych. To czyni ich atutem w rolach przywódczych, gdzie mogą zapewnić strategiczną wizję i kierunek dla organizacji.”"
+      ],
+      ["Ogólnie rzecz biorąc, typ osobowości Architekt wnosi do miejsca pracy unikalny zestaw umiejętności i cech. Ich analityczne, strategiczne i innowacyjne podejście do rozwiązywania problemów, w połączeniu z dążeniem do doskonałości i zdolnością do niezależnej pracy, czynią z nich atut w wielu rolach i branżach. Jeśli szukasz utalentowanego, zmotywowanego i nastawionego na wyniki profesjonalisty, rozważ zatrudnienie architekta."]
+    ]
+  },
+  {
+    "aboutMe": [
+      "Image FILE",
+      "Hi, Ich bin androoIT",
+      "Ich habe einige VBA-basierte Werkzeuge zur Unterstützung meiner Tagesarbeit entwickelt und seitdem widme ich mich dem Programmieren. Mit Vergnügen habe Ich ein intensives Bootcamp an der Software Entwicklers School absolviert und seitdem verbessere ich meine Fähigkeiten auf eigene Faust. Ich möchte meine Karriere als Javascript Full- Stack-Programmierer fortsetzen. Ich kann Ihnen versichern, dass ich persönlich motiviert bin, alles zu tun, um Ihre Erwartungen als Software-Entwickler zu erfüllen."
     ],
-    "personalityDescDe": [
-      ["Klicken Sie auf alle meine Stärken, um mehr zu erfahren"
-
+    "personality": [
+      "Mein Persönlichkeitstyp ist ein Architekt",
+      "nach Myers-Briggs Persönlichkeitsmodell",
+      "https://de.wikipedia.org/wiki/Myers-Briggs-Typenindikator"
+    ],
+    "personalityDesc": [
+      [
+        "Klicken Sie auf alle meine Stärken, um mehr zu erfahren"
       ],
       [
         "Starke analytische und strategische Denkfähigkeiten",

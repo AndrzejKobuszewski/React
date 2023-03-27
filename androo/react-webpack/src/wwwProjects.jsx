@@ -1,10 +1,10 @@
 import React from 'react';
-import { FaGithubSquare } from 'react-icons/fa';
-import data from "../src/data/VisitCardPageData.json";
 import WwwProject from './WwwProject';
+import codeLanguageToNumber from './codeLanguageToNumber';
+import project from'../src/data/wwwProjects.json';
 
-const WwwProjects =()=><>
-<h3>{data[0].wwwProjectsIntro}</h3>
+const WwwProjects =({number=codeLanguageToNumber()})=><>
+<h3>{project[0].wwwProjectsIntro[number]}</h3>
 <WwwProject/>
 
 </> 

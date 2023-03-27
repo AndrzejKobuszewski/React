@@ -3,6 +3,7 @@ import { useContext } from "react";
 import ColorsForm from "./ColorsForm";
 import header from "./data/header.json";
 import {ColorContext, LanguageContext} from './VisitCardPage';
+import codeLanguageToNumber from "./codeLanguageToNumber";
 
 
 export function Logo() {
@@ -23,6 +24,7 @@ export function Logo() {
           fontSize: "9vw",
           fontWeight: "bolder",
           backgroundColor: "white",
+          borderRadius: '5px',
           overflowX: 'scroll',
            whiteSpace: 'nowrap'
         }}
@@ -33,23 +35,23 @@ export function Logo() {
   );
 }
 
-const LightTheme = ({changeModeContrast =(f)=>f, changeModeDark =(f)=>f, data  }) => (
+const LightTheme = ({changeModeContrast =(f)=>f, changeModeDark =(f)=>f, data, number=codeLanguageToNumber()  }) => (
   <div style={{ display: "grid", marginTop: "-4px", lineHeight: '1.1rem', borderRadius: '5px', backgroundColor: '#f6f6f680'}}>
     <div className="contrastVersion" >
-    <label for="contrastTheme">{data[0].contrast}</label>
+    <label for="contrastTheme">{data[number].contrast}</label>
     <input type="checkbox" id="contrastTheme" name="contrastTheme" onChange={()=>changeModeContrast()}></input>
     </div>
     <div>
-    <label for="lightTheme"> {data[0].darkmode} </label>
+    <label for="lightTheme"> {data[number].darkmode} </label>
     <input type="checkbox" id="lightTheme" name="lightTheme" onChange={()=>changeModeDark()}></input>
     </div>
   </div>
 );
 
-const ColorTheme = ({ dane,  changeModeRegular =(f)=>f}) => (
+const ColorTheme = ({ dane,  changeModeRegular =(f)=>f,number=codeLanguageToNumber()}) => (
   <>
     <button onClick={()=>(changeModeRegular())} id="colorTheme" name="colorTheme">
-      {dane[0].colorTheme}
+      {dane[number].colorTheme}
     </button> 
     <ColorsForm className="colorForms"/>
   </>
@@ -77,10 +79,10 @@ const WebOptions = ({changeModeRegular={changeModeRegular}, changeModeContrast={
   </>
 );
 
-const MenuList = ({dane, changePage=(f)=>f}) => (
+const MenuList = ({dane, changePage=(f)=>f, number=codeLanguageToNumber()}) => (
   
     <ul>
-    {dane[0].menu.map((item, i) => (
+    {dane[number].menu.map((item, i) => (
       <li onClick={()=>changePage(item)} key={i} style={{cursor:"pointer", borderRadius: '5px'}}> {item}</li>
     ))}
   </ul>

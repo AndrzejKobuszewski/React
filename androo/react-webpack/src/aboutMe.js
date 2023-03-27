@@ -2,13 +2,14 @@ import React from "react";
 import data from "./data/aboutme.json";
 import { useContext, useState } from "react";
 import {ColorContext} from './VisitCardPage';
+import codeLanguageToNumber from "./codeLanguageToNumber";
 
-const Introduction = ({ move = (f) => f }) => (
+const Introduction = ({ move = (f) => f , number=codeLanguageToNumber()}) => (
   <div>
     <h3>
-      <b>{data[0].aboutMe[1]}</b>
+      <b>{data[number].aboutMe[1]}</b>
     </h3>
-    <p>{data[0].aboutMe[2]}</p>
+    <p>{data[number].aboutMe[2]}</p>
     <div
       style={{
         fontSize: "2rem",
@@ -26,32 +27,32 @@ const Introduction = ({ move = (f) => f }) => (
 
 const PersonalityShort = ({
   move = (f) => f,
-  thinkCloud = (f) => f
+  thinkCloud = (f) => f, number=codeLanguageToNumber()
   
 }) => (
   <div>
     <div>
       <h3>
-        <b>{data[0].personality[0]}</b>
+        <b>{data[number].personality[0]}</b>
       </h3>
       <subhead>
-        <a href={data[0].personality[2]} style={{textDecoration: 'none',color: 'currentColor'}} alt="Wikipedia def.">
-          <sup> {data[0].personality[1]}</sup>
+        <a href={data[number].personality[2]} style={{textDecoration: 'none',color: 'currentColor'}} alt="Wikipedia def.">
+          <sup> {data[number].personality[1]}</sup>
         </a>
       </subhead>
     </div>
     <div>
-      {data[0].personalityDesc
+      {data[number].personalityDesc
         .map((n, i) =>
           i == 0 ? (
             <h4 key={i}>{n[0]}</h4>
           ) : (
-            <h5 onClick={()=>thinkCloud(i)} style={{ cursor: "pointer" }} key={i}>
+            <h5 onClick={()=>thinkCloud(i)} style={{ cursor: "pointer", paddingLeft:"10px" }} key={i}>
               {n[0]}
             </h5>
           )
         )
-        .filter((numer) => numer.key < data[0].personalityDesc.length - 1)}
+        .filter((numer) => numer.key < data[number].personalityDesc.length - 1)}
     </div>
     <div
       style={{
@@ -67,15 +68,15 @@ const PersonalityShort = ({
   </div>
 );
 
-const FeatureDesc = ({think}) => (
+const FeatureDesc = ({think, number=codeLanguageToNumber()}) => (
   <div>
-    {data[0].personalityDesc.map((n, i) => i==think?(<p key={i}>{n[1]}</p>):null)}
+    {data[number].personalityDesc.map((n, i) => i==think?(<p key={i}>{n[1]}</p>):null)}
   </div>
 );
-const PersonalitySummary = () => (
+const PersonalitySummary = ({number=codeLanguageToNumber()}) => (
   <div>
     <p>
-      <b>{(data[0].personalityDesc[data[0].personalityDesc.length - 1])}</b>
+      <b>{(data[number].personalityDesc[data[number].personalityDesc.length - 1])}</b>
     </p>
   </div>
 );

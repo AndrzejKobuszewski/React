@@ -13,6 +13,7 @@ const formStyle = {
     flexWrap: 'wrap',
     marginTop: '8px',
     marginRight: '8px',
+    width:'100%',
 }
 
 const labelStyle = {

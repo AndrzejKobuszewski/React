@@ -1,9 +1,12 @@
 
+body {
+  background-color: black;
+}
 #root {
     margin: 0px 35px;
     box-sizing: border-box;
   
-    background-image: url("/img/aboutmeContrast.png");
+    background-image: url("/img/aboutmenoBgDarkContr.png");
     background-attachment: fixed;
     background-position: top;
     background-repeat: no-repeat;
@@ -14,7 +17,7 @@
     font-size: x-large;
     line-height: 1.2em;
     font-weight: bolder;
-
+    background-color: black;
   }
 
 userchoices{
@@ -31,8 +34,11 @@ h5 {
 article[class="think"]{
   max-width: 68%;
   left:32%;
-  background-color: rgb(39, 39, 39);
+  background-color:black;
 }
 article p {
   line-height: 1.4em;
+}
+li{
+  background-color: black;
 }

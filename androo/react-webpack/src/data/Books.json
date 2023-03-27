@@ -1,5 +1,9 @@
 [
     {
+        "recommendedBooksIntro":["I like learning new trhings from the books, bacause the books are more synthethic and thought over than publication you can find in the network. The Positions I read and I can recommend as valuable are as follows:",
+    "Lubię uczyć się nowych rzeczy z książek, bo są one bardziej syntetyczne i przemyślane niż publikacje, które można znaleźć w sieci. Pozycje, które mogę przeczytać i które mogę polecić jako wartościowe, to:",
+    "Ich lerne gerne Neues aus den Büchern, weil die Bücher synthetischer und durchdachter sind als Veröffentlichungen, die man im Netz finden kann. Die Positionen, die ich lesen und als wertvoll empfehlen kann, sind die folgenden:"],
+ 
         "coverFrontsource": "./img/React4jobseekers.png",
         "coverBacksource":  "",
         "title":        "ReactJS for Jobseekers: The Only Guide You Need to Learn React and Crack Interviews",

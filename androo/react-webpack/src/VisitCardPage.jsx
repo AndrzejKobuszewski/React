@@ -5,8 +5,9 @@ import ColorsFormdata from "../src/data/ColorsFormdata.json";
 import Header from "./Header.jsx";
 import Container from "./Container.js";
 import Footer from "./Footer.jsx";
+import codeLanguageToNumber from "./codeLanguageToNumber";
 
-const CreatetartColorsArray = () =>
+export const CreatetartColorsArray = () =>
 {let startColorsArray = ["a","a"];
 ColorsFormdata[0].colorLabels.map((n,i)=>n.map((m,j)=>j%2==1?(startColorsArray.push(m+" ")):null));
 return startColorsArray.splice(2,3);}
@@ -60,7 +61,7 @@ function VisitCardPage({startPage=dane[0].menu[0], startColors= CreatetartColors
       <ColorContext.Provider value = {{colors, setColors}}>
         <LanguageContext.Provider value={{lang, setLang}}>
 
-          <Header changePage={(MenuItem)=>setPage(MenuItem)} changeModeContrast={()=>changeModeContrast()}
+          <Header changePage={(MenuItem)=>setPage(MenuItem)} changeModeContrast={()=>changeModeContrast()} 
           changeModeDark={()=>changeModeDark()}  changeModeRegular={()=>changeModeRegular()}  
           >
           </Header>

@@ -1,9 +1,10 @@
 import React from "react";
 import { FaGithub } from 'react-icons/fa';
+import codeLanguageToNumber from "./codeLanguageToNumber";
 
 import project from '../src/data/wwwProjects.json';
 
-const WwwProject = () =>
+const WwwProject = ({number=codeLanguageToNumber()}) =>
     <>
         <article>
             {project.map((n, i) => <p>
@@ -19,8 +20,8 @@ const WwwProject = () =>
                         < a href={n.githublink} target='_blank'><FaGithub color = {"black"} style={{ marginTop:"1rem", width: '4rem', height:'4rem' }}/></a >
                     </div>
                 </div>    
-                    <h3>{n.title} - {n.time}</h3>
-                    <p>{n.Description}</p>
+                    <h3>{n.title[number]} - {n.time}</h3>
+                    <p>{n.Description[number]}</p>
                     <p>{n.technologies.map((n, i) => <span key={i}><b>{n}, </b></span>)}</p>
                 </div>
             </p>
