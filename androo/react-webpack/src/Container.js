@@ -10,7 +10,7 @@ import codeLanguageToNumber from "./codeLanguageToNumber.js";
 
 const Container = ({page, mode, number=codeLanguageToNumber()}) => 
 
-<containerBar >
+<div className='containerBar' >
 <main>
       {(() => {
         switch (page) {
@@ -21,7 +21,7 @@ const Container = ({page, mode, number=codeLanguageToNumber()}) =>
             case 'Technologies':
             case "Technologie":
             case "Technologien":
-            return <Technologies />;
+            return <Technologies mode={mode}/>;
             case 'www Projects':
             case "Projekty www":
             case "www Projekte":
@@ -42,7 +42,7 @@ const Container = ({page, mode, number=codeLanguageToNumber()}) =>
     <Ramka/>
 </aside> */}
 
-</containerBar>
+</div>
 export default Container; 
 
  

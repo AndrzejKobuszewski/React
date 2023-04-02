@@ -25,7 +25,7 @@ function VisitCardPage({startPage=dane[0].menu[0], startColors= CreatetartColors
   let contrastLink = document.getElementById('contrast');
   let darkLink = document.getElementById('dark');  
 
-  function changeModeRegular(){
+  function changemoderegular(){
     let tickContrast = document.getElementById('contrastTheme');
     let tickDarkmode = document.getElementById('lightTheme');  
     let contrastLink = document.getElementById('contrast');
@@ -39,7 +39,7 @@ function VisitCardPage({startPage=dane[0].menu[0], startColors= CreatetartColors
     darkLink.rel="t";
 
    }
-   function changeModeContrast(){  
+   function changemodecontrast(){  
     let tickContrast = document.getElementById('contrastTheme');
     let tickDarkmode = document.getElementById('lightTheme');  
     (tickContrast.checked==true)?(setMode('contrast'), tickDarkmode.checked=false,  contrastLink.rel="stylesheet",
@@ -47,7 +47,7 @@ function VisitCardPage({startPage=dane[0].menu[0], startColors= CreatetartColors
     darkLink.rel="t");
    
    }
-   function changeModeDark(){
+   function changemodedark(){
     let tickContrast = document.getElementById('contrastTheme');
     let tickDarkmode = document.getElementById('lightTheme');  
     (tickDarkmode.checked==true)?(setMode('dark'), tickContrast.checked=false,  contrastLink.rel="t",
@@ -61,8 +61,8 @@ function VisitCardPage({startPage=dane[0].menu[0], startColors= CreatetartColors
       <ColorContext.Provider value = {{colors, setColors}}>
         <LanguageContext.Provider value={{lang, setLang}}>
 
-          <Header changePage={(MenuItem)=>setPage(MenuItem)} changeModeContrast={()=>changeModeContrast()} 
-          changeModeDark={()=>changeModeDark()}  changeModeRegular={()=>changeModeRegular()}  
+          <Header changePage={(MenuItem)=>setPage(MenuItem)} changemodecontrast={()=>changemodecontrast()} 
+          changemodedark={()=>changemodedark()}  changemoderegular={()=>changemoderegular()}  
           >
           </Header>
           <Container page={page} mode={mode}></Container>

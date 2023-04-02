@@ -47,10 +47,11 @@ function ColorsForm({ changeColorsForm = (f) => f, number=codeLanguageToNumber()
             <form style={formStyle}>
                 <div>
                     {ColorsFormdata[number].colorLabels.map((n, i) =>
-                     <><input defaultValue={ColorsFormdata[0].colorLabels[i][1]}   className={"color"} style={inputStyle} name={'fontColor'} key={i} type={('color')}  
+                     <div key={i}><input defaultValue={ColorsFormdata[0].colorLabels[i][1]}   className={"color"} style={inputStyle} name={'fontColor'} type={('color')}  
                     />
-                        <label style={labelStyle} for={'fontColor'} key={i}>{n[0]}</label>
-                    </>)}
+                        <label style={labelStyle} htmlFor={'fontColor'} >{n[0]}</label>
+                    </div>
+                    )}
                 </div>
                 <div>
                     <>

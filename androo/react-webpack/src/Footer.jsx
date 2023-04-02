@@ -8,10 +8,9 @@ const CreatedBy = () => (
 );
 
 const Footer = () => (
-  <footerBar>
-    <supplementaryInfo></supplementaryInfo>
-    <supplementaryOption></supplementaryOption>
-    <createdBy>{<CreatedBy style={{ fontWeight: "400" }} />}</createdBy>
-  </footerBar>
+  <div className='footerBar'>
+
+    <div className='createdBy'>{<CreatedBy style={{ fontWeight: "400" }} />}</div>
+  </div>
 );
 export default Footer;

@@ -35,22 +35,22 @@ export function Logo() {
   );
 }
 
-const LightTheme = ({changeModeContrast =(f)=>f, changeModeDark =(f)=>f, data, number=codeLanguageToNumber()  }) => (
+const LightTheme = ({changemodecontrast =(f)=>f, changemodedark =(f)=>f, data, number=codeLanguageToNumber()  }) => (
   <div style={{ display: "grid", marginTop: "-4px", lineHeight: '1.1rem', borderRadius: '5px', backgroundColor: '#f6f6f680'}}>
     <div className="contrastVersion" >
-    <label for="contrastTheme">{data[number].contrast}</label>
-    <input type="checkbox" id="contrastTheme" name="contrastTheme" onChange={()=>changeModeContrast()}></input>
+    <label htmlFor="contrastTheme">{data[number].contrast}</label>
+    <input type="checkbox" id="contrastTheme" name="contrastTheme" onChange={()=>changemodecontrast()}></input>
     </div>
     <div>
-    <label for="lightTheme"> {data[number].darkmode} </label>
-    <input type="checkbox" id="lightTheme" name="lightTheme" onChange={()=>changeModeDark()}></input>
+    <label htmlFor="lightTheme"> {data[number].darkmode} </label>
+    <input type="checkbox" id="lightTheme" name="lightTheme" onChange={()=>changemodedark()}></input>
     </div>
   </div>
 );
 
-const ColorTheme = ({ dane,  changeModeRegular =(f)=>f,number=codeLanguageToNumber()}) => (
+const ColorTheme = ({ dane,  changemoderegular =(f)=>f,number=codeLanguageToNumber()}) => (
   <>
-    <button onClick={()=>(changeModeRegular())} id="colorTheme" name="colorTheme">
+    <button onClick={()=>(changemoderegular())} id="colorTheme" name="colorTheme">
       {dane[number].colorTheme}
     </button> 
     <ColorsForm className="colorForms"/>
@@ -64,17 +64,17 @@ function Language({ dane, changeLanguage = (f) => f }) {
   }
   return (
     <select onChange={(e) => changeLanguage(e.target.value)} name="lang" id="lang">
-      {dane[0].language.map((langabbr) => (
-        <option>{langabbr}</option>
+      {dane[0].language.map((langabbr,i) => (
+        <option key={i}>{langabbr}</option>
       ))}
     </select>
   );
 }
-const WebOptions = ({changeModeRegular={changeModeRegular}, changeModeContrast={changeModeContrast}, changeModeDark={changeModeDark}}) => (
+const WebOptions = ({changemoderegular={changemoderegular}, changemodecontrast={changemodecontrast}, changemodedark={changemodedark}}) => (
   <>
   
-    <LightTheme data={header} changeModeContrast={changeModeContrast} changeModeDark={changeModeDark} style={{width: "175px"}}/>
-    <ColorTheme changeModeRegular={changeModeRegular} dane={header} style={{width: "175px"}}/>
+    <LightTheme data={header} changemodecontrast={changemodecontrast} changemodedark={changemodedark} style={{width: "175px"}}/>
+    <ColorTheme changemoderegular={changemoderegular} dane={header} style={{width: "175px"}}/>
     <Language dane={header} style={{width: "175px"}}/>
   </>
 );
@@ -88,23 +88,23 @@ const MenuList = ({dane, changePage=(f)=>f, number=codeLanguageToNumber()}) => (
   </ul>
 );
 
-function Header({ changePage, changeModeRegular, changeModeContrast, changeModeDark}) {
+function Header({ changePage, changemoderegular, changemodecontrast, changemodedark}) {
   
 const {colors, setColors} = useContext(ColorContext);
 
 
   return (
-    <headerBar changeModeRegular={changeModeRegular} changeModeContrast={changeModeContrast} changeModeDark={changeModeDark}>
+    <div className ='headerBar' >
       <div className="Logo">
         <Logo />
       </div>
-      <userChoices changeModeRegular={changeModeRegular} changeModeContrast={changeModeContrast} changeModeDark={changeModeDark}>
+      <div className="userChoices" >
         <div  style={{borderColor: colors[0]}} className="WebOptions">
-          <WebOptions changeModeRegular={changeModeRegular} changeModeContrast={changeModeContrast} changeModeDark={changeModeDark}/>
+          <WebOptions changemoderegular={changemoderegular} changemodecontrast={changemodecontrast} changemodedark={changemodedark}/>
         </div>
         <MenuList dane={header} changePage={changePage} />
-      </userChoices>
-    </headerBar>
+      </div>
+    </div>
   );
 }
 export default Header;

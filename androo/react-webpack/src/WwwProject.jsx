@@ -7,7 +7,7 @@ import project from '../src/data/wwwProjects.json';
 const WwwProject = ({number=codeLanguageToNumber()}) =>
     <>
         <article>
-            {project.map((n, i) => <p>
+            {project.map((n, i) => <p key={i}>
                 <div>
                 <div style={{ display: "flex"}}>    
                     <div style={{ width: '70%' }}>

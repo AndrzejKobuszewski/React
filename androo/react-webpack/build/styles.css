@@ -191,7 +191,7 @@ li:first-child {
 .articleTiltle {
   color: rgb(136, 74, 74);
 }
-headerbar {
+.headerBar {
   display: flex;
   flex-wrap: wrap;
 }
@@ -210,10 +210,11 @@ headerbar {
 .Logo1{
 color:rgb(136, 74, 74);
 }
-userchoices {
+.userChoices {
   margin-left: 2.5%;
   margin-top: 0.5%;
   width: 65%;
+
 }
 .WebOptions {
   display: flex;
@@ -236,13 +237,14 @@ userchoices {
   grid-column-end: 1;
   grid-row-start: 1;
   grid-row-end: 2;
+  position: fixed;
 }
 .technologyDisplay{
 
   grid-column-start: 2;
   grid-column-end: 4;
   grid-row-start: 1;
-  grid-row-end: 3;
+  grid-row-end: 6;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;

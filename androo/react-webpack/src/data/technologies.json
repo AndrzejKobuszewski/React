@@ -131,7 +131,8 @@
       " executed projects"
     ],
     "SortOrder":["ascending", "descending"],
-    "SortBy":["name", "knowledge level", "experience"]
+    "SortBy":["entry","name", "knowledge level", "experience"],
+    "labels":["Sortng order:","Sorting subject:"]
   },
   {
     "technologyKnowledgeLevelTheLegend": [
@@ -148,7 +149,8 @@
     ],
     
 "SortOrder":["rosnąco", "malejąco"],
-"SortBy":["nazwa", "poziom wiedzy", "doświadczenie"]
+"SortBy":["wpisach","nazwie", "poziomie wiedzy", "doświadczeniu"],
+"labels":["Kierunek sortowania:","Sortuj po:"]
 
   },
   {
@@ -165,7 +167,8 @@
       " abgeschlossenen Projekten"
     ],
     "SortOrder":["aufsteigend", "absteigend"],
-"SortBy":["Name", "Kenntnisstand", "Erfahrung"]
+"SortBy":["Eintrag","Name", "Kenntnisstand", "Erfahrung"],
+"labels":["Sortierrichtung:","Sortieren nach:"]
     
   }
 ]
