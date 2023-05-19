@@ -188,6 +188,10 @@ li:first-child {
   border-left: 0px solid currentColor;
   
 }
+textarea {
+color: currentColor;
+background-color: gainsboro;
+}
 .articleTiltle {
   color: rgb(136, 74, 74);
 }
@@ -260,5 +264,7 @@ color:rgb(136, 74, 74);
 .ratings {
   margin-top: -33px;
   margin-bottom: 43px;
-
+}
+.projectdesc{
+  background-color: #f6f6f680;
 }

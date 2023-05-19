@@ -113,6 +113,7 @@ const stylesThink = {backgroundColor: handleThemes(mode, colors, 1), opacity: "8
 const stylesSpeakSumUp = {backgroundColor: handleThemes(mode, colors, 2), opacity: "82%"};
 
 
+
   return (
     <>
       <div className="AboutMe">

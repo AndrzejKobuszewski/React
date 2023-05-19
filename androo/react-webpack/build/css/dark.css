@@ -24,3 +24,14 @@ article[class="think"]{
   left:32%; */
   background-color: rgb(39, 39, 39);
 }
+textarea {
+  color: gainsboro;
+  background-color: rgb(39, 39, 39);
+  }
+  textarea:hover {
+    color: black;
+    
+    }
+.projectdesc {
+  background-color: rgba(39, 39, 39, 80%)
+}

@@ -64,7 +64,7 @@ module: {
   },
   // pass all js files through Babel
   resolve: {
-    extensions: ["*", ".js", ".jsx"],    // <-- added `.jsx` here
+    extensions: [".*", ".js", ".jsx"],    // <-- added `.jsx` here
   },
 
   
