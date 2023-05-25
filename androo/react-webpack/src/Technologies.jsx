@@ -97,18 +97,18 @@ function Technologies({ number = codeLanguageToNumber(), mode }) {
         return (
             <>
                 {data.map((n, i) => (
-                    <div className="singleTechnology" key={i}>
+                    <div className="singleTechnology" key={i+8000}>
                         {data[i].map((n, i) =>
                             i % 3 == 0 ? (
-                                <div className="singleTechnologyName" name={n} key={{ i }}>
+                                <div className="singleTechnologyName" name={n} key={i+9000}>
                                     <h2>
                                         <b>{n}</b>
                                     </h2>
                                 </div>
                             ) : (
-                                <div key={i} className="ratings">
+                                <div key={i+10000} className="ratings">
                                     {i % 3 == 1 ? (
-                                        <div key={i} score={n}>
+                                        <div key={i+11000} score={n}>
                                             <StarRating
                                                 totalStars={5}
                                                 s={parseInt(n)}
@@ -116,7 +116,7 @@ function Technologies({ number = codeLanguageToNumber(), mode }) {
                                             />
                                         </div>
                                     ) : (
-                                        <div key={i} score={n}>
+                                        <div key={i+7000} score={n}>
                                             <StarRating
                                                 totalStars={projects.length}
                                                 s={parseInt(n)}
@@ -219,7 +219,7 @@ function Technologies({ number = codeLanguageToNumber(), mode }) {
                     <h3>{TechnologiesData[number].labels[1]}</h3>
                     <div className="secRadio">
                         {TechnologiesData[number].SortBy.map((n, i) => (
-                            <div key={i}>
+                            <div key={i+6000}>
                                 <label htmlFor={n}> {n}</label>
                                 <input
                                     onClick={(e) => markSort({ n }, e)}

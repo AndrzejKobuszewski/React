@@ -2,7 +2,7 @@ import React from "react";
 import data from "../src/data/Books.json";
 const Book = ({dane=data, coverFrontsource = "coverFrontsource", coverBacksource = "coverBacksource", title = "title", author = "author", version = 2, year = 2021 }) =>
 
-dane.map((n,i)=><p key ={i}> 
+dane.map((n,i)=><div key ={i}> 
    <div style= {{display:"inline-grid", gridTemplateColumns:"30% 40% 30%"}}>
         <div>
            <img src= {n.coverFrontsource} style={{ width: '80%' }} ></img>
@@ -21,6 +21,6 @@ dane.map((n,i)=><p key ={i}>
         </div>
     </div>   
     
-    </p>)
+    </div>)
     ;
         export default Book;

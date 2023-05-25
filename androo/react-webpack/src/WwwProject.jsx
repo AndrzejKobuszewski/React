@@ -9,14 +9,14 @@ const WwwProject = ({number=codeLanguageToNumber()}) =>
         <article style={{borderRadius: "5px", marginLeft: '15px'}}>
             {project.map((n, i) => 
             
-            <div key={i}>
+            <div key={1000+i}>
                 <div style={{ display: "flex", borderBottom: "1px solid", paddingTop:"5px"}}>
                 <div style={{ display: "flex", width: '30%'}}>    
                     <div style={{ width: '200px' }}>
                         <a href={n.link} target="_blank">
                         <img src={n.screenshot} style={{ width: '110%' }}></img>
                         </a>
-                        <p>{n.technologies.map((n, i) => <span key={i}><b>{n}, </b></span>)}</p>
+                        <p>{n.technologies.map((n, i) => <span key={2000 + i}><b>{n}, </b></span>)}</p>
                     </div>
                     
                     <div>

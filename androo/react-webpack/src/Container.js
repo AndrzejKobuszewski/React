@@ -37,7 +37,7 @@ function Container({ page, mode }) {
       })()}
     </main>
    
-    {useEffect(()=> {document.location.hash = page} , [codeLanguageToNumber()])}
+    {/* {useEffect(()=> {document.location.hash = page} , [codeLanguageToNumber()])} */}
 
   </div>;
 }
