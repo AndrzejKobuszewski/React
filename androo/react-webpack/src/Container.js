@@ -5,11 +5,6 @@ import WwwProjects from './wwwProjects.jsx';
 import Library from "./Books.jsx";
 import codeLanguageToNumber from "./codeLanguageToNumber.js";
 
-
-
-
-
-
 function Container({ page, mode }) {
   
  return <div className='containerBar'>
@@ -40,12 +35,8 @@ function Container({ page, mode }) {
 
       })()}
     </main>
-    {document.location.hash = page}
+   
     {useEffect(()=> {document.location.hash = page} , [codeLanguageToNumber()])}
-
-    {/* <aside>
-            <Ramka/>
-        </aside> */}
 
   </div>;
 }

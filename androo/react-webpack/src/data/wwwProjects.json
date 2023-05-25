@@ -53,9 +53,10 @@
 {
     "title": ["Recruiment Task 2","Zadane rekrutacyjne 2", "Rekrutierungsaufgabe 2"],
     "time": "2021",
-    "Description": ["Zadanie polegało na wytworzeniu aplikacji, która obliczaja odległość między dwoma zadanymi punktami geograficznymi",
-    "Die Aufgabe bestand darin, eine Anwendung zu erstellen, die die Entfernung zwischen zwei gegebenen geografischen Punkten berechnet",
-    "The task was to create an application that calculates the distance between two given geographic points"],            
+    "Description": ["The task was to create an application that calculates the distance between two given geographic points",
+    "Zadanie polegało na wytworzeniu aplikacji, która obliczaja odległość między dwoma zadanymi punktami geograficznymi",
+    "Die Aufgabe bestand darin, eine Anwendung zu erstellen, die die Entfernung zwischen zwei gegebenen geografischen Punkten berechnet"
+    ],            
     "technologies":["HTML", "CSS", "Javascript","Vue","PHP"],
     "githublink": "https://github.com/AndrzejKobuszewski/Zadanie-Progamistyczne-PHP-Vue.js",
     "screenshot":"./img/zad2.png",
@@ -86,8 +87,9 @@
 {
     "title": ["androoIT","androoIT","androoIT"],
     "time": "2023",
-    "Description": ["Niniejszy serwis został stworzony w celu zaprezentowania siebie jako software developer",
+    "Description": [
     "Hereby website for presenting myself as a sofware developer",
+    "Niniejszy serwis został stworzony w celu zaprezentowania siebie jako software developer",
      "Hiermit wurde eine Website erstellt, um mich als software entwickler zu präsentieren"],
     "technologies":["HTML", "CSS", "Javascript","React","NodeJS - Webpack"],
     "githublink": "",

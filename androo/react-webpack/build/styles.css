@@ -1,7 +1,7 @@
 
 @font-face {
   font-family: VT323-Regular;
-  src: url("../fonts/VT323-Regular.ttf") format("truetype");
+  src: url("./fonts/VT323-Regular.ttf") format("truetype");
 }
 
 /* .colorPicker form label{
