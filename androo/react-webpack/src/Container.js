@@ -4,6 +4,7 @@ import AboutMe from './aboutMe.js';
 import WwwProjects from './wwwProjects.jsx';
 import Library from "./Books.jsx";
 import codeLanguageToNumber from "./codeLanguageToNumber.js";
+import Blog from "./Blog.jsx"
 
 function Container({ page, mode }) {
   

@@ -5,6 +5,7 @@ import ColorsFormdata from "../src/data/ColorsFormdata.json";
 import Header from "./Header.jsx";
 import Container from "./Container.js";
 import Footer from "./Footer.jsx";
+
 import codeLanguageToNumber from "./codeLanguageToNumber";
 
 export const CreatetartColorsArray = () =>
@@ -58,8 +59,13 @@ function VisitCardPage({startPage=dane[0].menu[0], startColors= CreatetartColors
  
   return (
     <>
+    
+
+
+      
       <ColorContext.Provider value = {{colors, setColors}}>
         <LanguageContext.Provider value={{lang, setLang}}>
+        
 
           <Header changePage={(MenuItem)=>setPage(MenuItem)} changemodecontrast={()=>changemodecontrast()} 
           changemodedark={()=>changemodedark()}  changemoderegular={()=>changemoderegular()}  
@@ -67,8 +73,8 @@ function VisitCardPage({startPage=dane[0].menu[0], startColors= CreatetartColors
           </Header>
           <Container page={page} mode={mode}></Container>
           <Footer></Footer>
+         
         </LanguageContext.Provider>
-
       </ColorContext.Provider>
       
     </>
