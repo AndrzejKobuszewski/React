@@ -15,14 +15,13 @@ function Blog({ number = codeLanguageToNumber() }) {
 
   return (
     <div
-      className="projectdesc"
-      style={{ display: "grid", gridTemplateColumns: "33% 67%", textAlign:"justify" }}
+      className="blogContainer"
+      
     >
       <div>
-        <h1>
-          Here you can find some of my personal opinions. This content will be
-          protected by password soon.
-        </h1>
+        <h3>
+        {data[number].Invitation}
+        </h3>
       </div>
       <div>
         {article == "list" ? (
@@ -72,23 +71,24 @@ function Blog({ number = codeLanguageToNumber() }) {
                 <p>
                     {data[number].Post1.Content.Paragraph1}<br></br>
                 
-                {data[number].Post1.Content.List1.map((n,i)=><span> {String.fromCharCode(8594)} {n}<br></br></span>)}
+                {data[number].Post1.Content.List1.map((n,i)=><span key ={i+15000}> {String.fromCharCode(8594)} {n}<br></br></span>)}
               </p>
               <br></br>
               <p>{data[number].Post1.Content.Paragraph2}<br></br>
-              {data[number].Post1.Content.List2.map((n,i)=><span> {String.fromCharCode(8594)} {n}<br></br></span>)}
+              {data[number].Post1.Content.List2.map((n,i)=><span key ={i+16000}> {String.fromCharCode(8594)} {n}<br></br></span>)}
               </p>
               <p>{data[number].Post1.Content.Paragraph3}</p>
               <p>{data[number].Post1.Content.Paragraph4}<br></br>
-              {data[number].Post1.Content.List3.map((n,i)=><span> {String.fromCharCode(8594)} {n}<br></br></span>)}
+              {data[number].Post1.Content.List3.map((n,i)=><span key ={i+17000}> {String.fromCharCode(8594)} {n}<br></br></span>)}
               </p>
               <br></br>
               <p>{data[number].Post1.Content.Paragraph5}</p>
 
-              
-              
-              </div>
+              <div className="buttonBackToList">
               <button onClick={showList}>Back to the list</button>
+              </div>
+              </div>
+             
             </div>
           </>
         )
@@ -98,4 +98,4 @@ function Blog({ number = codeLanguageToNumber() }) {
   );
 }
 
-export default Blog;
+ export default Blog;

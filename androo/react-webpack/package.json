@@ -30,7 +30,7 @@
     "react-dom": "^18.2.0",
     "react-media": "^1.10.0",
     "react-router": "^0.0.0-experimental-f92aa2e1",
-    "react-router-dom": "^0.0.0-experimental-f92aa2e1",
+    "react-router-dom": "^6.11.2",
     "vanilla-framework": "^3.12.1"
   }
 }

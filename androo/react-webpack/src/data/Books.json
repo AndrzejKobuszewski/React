@@ -10,7 +10,7 @@
         "authors":        "Griffiths David, Griffiths Dawn",
         "version":        "1",
         "year":        "year 2022",
-        "description": "Very complex lecture - I whisch I had time to try it all"
+        "description": ["Very complex lecture - I whisch I had time to try it all", "Bardzo wszechstronna publikacja - aby tylko był czas spróbować wszystkiego","Sehr komplexe Vorlesung – ich wünschte, ich hätte Zeit, alles auszuprobieren"]
     },
     {
         "coverFrontsource": "./img/reactRedux.jpeg",
@@ -19,7 +19,7 @@
         "authors":        "Kirupa Chinnathambi ",
         "version":        "2",
         "year":        "year 2019",
-        "description": "Outdated, but usable for maintaining legacy code"
+        "description": ["Outdated, but usable for maintaining legacy code","Przestarzała publikacja, ale użyteczny do utrzymania starszego kodu", "Veraltet, aber für die Pflege von Legacy-Code verwendbar"]
     },
    
     
@@ -30,7 +30,7 @@
         "authors":        "Qaifi Khan ",
         "version":        "1",
         "year":        "year 2023",
-        "description": "Different view - some valuable remarks"
+        "description": ["Different view - some valuable remarks", "Inne spojrzenie - kilka cennych uwag","Andere Sichtweise – einige wertvolle Bemerkungen"]
     },
     {
         "coverFrontsource": "./img/LearningReact.png",
@@ -40,7 +40,7 @@
         "authors":        "Alex Banks, Eve Porcello",
         "version":        "2",
         "year":        "year 2021",
-        "description": "Very good lecture - my refference book for react"
+        "description": ["A very good read - my #1 manual for react","Bardzo dobra lektura - mój podręcznik nr 1 do react","Eine sehr gute Lektüre – mein Nr. 1-Handbuch für React" ]
     },
     {
         
@@ -50,7 +50,7 @@
         "authors":        " Laurence Lars Svekis, Maaike van Putten, Rob Percival ",
         "version":        "1",
         "year":        "year 2021",
-        "description": "Good Book for review JS on each level of expirience"
+        "description": ["Good Book for review JS knowledge on each level of expirience","Dobra książka do rewizji wiedzy o JS na każdym poziomie zaawansowania","Ein gutes Buch, um JS-Kenntnisse auf jedem Fortschrittsniveau zu wiederholen"]
     },
     {
         "coverFrontsource": "./img/JSTheDefinitiveGuide.png",
@@ -59,7 +59,7 @@
         "authors":        "David Falanagan",
         "version":        "7",
         "year":        "year 2020",
-        "description":"Best programming book ever - Book covers everything in logicall sequential manner"
+        "description":["Best programming book ever - Book covers everything in logicall sequential manner","Najlepsza książka o programowaniu wszechczasów - Książka obejmuje wszystko w logiczny i sekwencyjny sposób","Bestes Programmierbuch aller Zeiten – Das Buch deckt alles in logischer Reihenfolge ab"]
     }
     ,
     { 
@@ -69,7 +69,7 @@
       "authors":        "Marijn Haverbeke",
       "version":        "3",
       "year":        "year 2018",
-      "description":"Good Book for learn and review JS"
+      "description":["Good Book for learn and review JS","Dobra książka do nauki i przeglądu JS","Ein gutes Buch zum Erlernen und Wiederholen von JS"]
     },
 
 
@@ -80,7 +80,7 @@
     "authors":        "Brian Messenlehner, Jason Coleman",
     "version":        "2",
     "year":        "year 2021",
-    "description":"Quite good book, which explains WP basic concepts. It allowed me to understand WP."
+    "description":["Quite good book, which explains WP basic concepts. It allowed me to understand WP.","Ein gutes Buch, das die Grundkonzepte von WP erklärt. Sie hat mir geholfen, WP zu verstehen.",""]
   },
 
   { 
@@ -90,7 +90,7 @@
     "authors":        "David Thomas Hunt Andrew",
     "version":        "20th anniversary edition",
     "year":        "year 2019",
-    "description":"It's all about your attitude, the rest you can learn from manuals... Book is a must read"
+    "description":["It's all about your attitude, the rest you can learn from manuals... Book is a must read","Wszystko zależy od Twojego nastawienia, reszty dowiesz się z podręczników... Książka to obowiązkowa lektura","Es kommt nur auf Ihre Einstellung an, den Rest können Sie aus Handbüchern lernen ... Das Buch ist eine Pflichtlektüre"]
   }
   
     

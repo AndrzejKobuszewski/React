@@ -11,7 +11,7 @@ const WwwProject = ({number=codeLanguageToNumber()}) =>
             
             <div key={1000+i}>
                 <div style={{ display: "flex", borderBottom: "1px solid", paddingTop:"5px"}}>
-                <div style={{ display: "flex", width: '30%'}}>    
+                <div style={{ position: "relative", display: "flex", width: '30%'}}>    
                     <div style={{ width: '200px' }}>
                         <a href={n.link} target="_blank">
                         <img src={n.screenshot} style={{ width: '110%' }}></img>
@@ -19,7 +19,7 @@ const WwwProject = ({number=codeLanguageToNumber()}) =>
                         <p>{n.technologies.map((n, i) => <span key={2000 + i}><b>{n}, </b></span>)}</p>
                     </div>
                     
-                    <div>
+                    <div className="gitThumbinal">
                         < a href={n.githublink} target='_blank'><FaGithub color = {"black"} 
                         style={{ marginTop:"1rem", width: '4rem', height:'4rem' }}/></a >
                     </div>

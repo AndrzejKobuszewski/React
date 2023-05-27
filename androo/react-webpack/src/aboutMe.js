@@ -4,6 +4,7 @@ import { useContext, useState } from "react";
 import {ColorContext} from './VisitCardPage';
 import codeLanguageToNumber from "./codeLanguageToNumber";
 
+
 const Introduction = ({ move = (f) => f , number=codeLanguageToNumber()}) => (
   <div>
     <h3>

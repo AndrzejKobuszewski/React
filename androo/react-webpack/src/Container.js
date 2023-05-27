@@ -3,8 +3,9 @@ import Technologies from './Technologies.jsx'
 import AboutMe from './aboutMe.js';
 import WwwProjects from './wwwProjects.jsx';
 import Library from "./Books.jsx";
-import codeLanguageToNumber from "./codeLanguageToNumber.js";
-import Blog from "./Blog.jsx"
+import codeLanguageToNumber from "./codeLanguageToNumber";
+import Blog from "./Blog"
+// import { BrowserRouter, Link, Route, Routes } from 'react-router-dom'
 
 function Container({ page, mode }) {
   
@@ -29,15 +30,16 @@ function Container({ page, mode }) {
           case "Bibliothek":
             return <Library page={page} />;
           case 'Blog':
-            return <Blog />;
+            return <Blog mode={mode}  page={page}/>;
           default:
             return <AboutMe />;
         }
 
       })()}
+
     </main>
    
-    {/* {useEffect(()=> {document.location.hash = page} , [codeLanguageToNumber()])} */}
+    {useEffect(()=> {document.location.hash = page} , [page])}
 
   </div>;
 }

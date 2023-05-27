@@ -2,10 +2,10 @@ body {
   background-color: black;
 }
 #root {
-    margin: 0px 35px;
+    /* margin: 0px 35px; */
     box-sizing: border-box;
   
-    background-image: url("../img/aboutmenoBgDarkContr.png");
+    /* background-image: url("../img/aboutmenoBgDarkContr.png"); */
     background-attachment: fixed;
     background-position: top;
     background-repeat: no-repeat;
@@ -13,7 +13,7 @@ body {
     padding: 7px;
     min-height: 99vh;
     color: rgb(227, 227, 227);
-    background-color: grey;
+    /* background-color: #808080d2; */
   }
 .Logo {
   color: beige;
@@ -32,6 +32,10 @@ textarea {
     color: black;
     
     }
-.projectdesc {
+.projectdesc, .libraryContainer, .blogContainer,.sortingFilrtersTechnology {
   background-color: rgba(39, 39, 39, 80%)
+}
+.userChoicesMobile ul li{
+    
+ background-color: #393939d2;
 }

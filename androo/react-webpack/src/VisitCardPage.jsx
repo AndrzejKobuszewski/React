@@ -6,7 +6,6 @@ import Header from "./Header.jsx";
 import Container from "./Container.js";
 import Footer from "./Footer.jsx";
 
-import codeLanguageToNumber from "./codeLanguageToNumber";
 
 export const CreatetartColorsArray = () =>
 {let startColorsArray = ["a","a"];
@@ -57,12 +56,9 @@ function VisitCardPage({startPage=dane[0].menu[0], startColors= CreatetartColors
    
    }
  
-  return (
+   return (
     <>
-    
-
-
-      
+          
       <ColorContext.Provider value = {{colors, setColors}}>
         <LanguageContext.Provider value={{lang, setLang}}>
         

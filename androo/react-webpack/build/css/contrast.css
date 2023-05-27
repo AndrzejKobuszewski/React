@@ -1,29 +1,30 @@
-
+html {
+  display:block;
+  margin:0px;
+}
 body {
+  /* background-color: black; */
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
   background-color: black;
 }
 #root {
-    margin: 0px 35px;
+    /* margin: 0px 35px; */
     box-sizing: border-box;
-    background-image: url("../img/aboutmenoBgDarkContr.png");
-    background-attachment: fixed;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 7px;
-    min-height: 99vh;
+
     color: yellowgreen;
     font-size: x-large;
     line-height: 1.2em;
     font-weight: bolder;
-    background-color: black;
+ 
   }
 
 userchoices{
 background-color: rgb(36, 34, 34);
 }
 .Logo {
-  background-color: beige;
+  color: limegreen;
   border-radius: 5px;
 }
 h5 {
@@ -46,6 +47,6 @@ textarea {
   color: yellowgreen;
   background-color: rgb(39, 39, 39);
   }
-.projectdesc {
+.projectdesc, .libraryContainer, .blogContainer, .sortingFilrtersTechnology {
   background-color: rgb(39, 39, 39)
 }

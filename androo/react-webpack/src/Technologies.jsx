@@ -40,7 +40,7 @@ function Technologies({ number = codeLanguageToNumber(), mode }) {
         }
     }
     const stylesThink = {
-        backgroundColor: handleThemes(mode, colors, 1),
+        backgroundColor: handleThemes(mode, colors, 2),
         opacity: "82%",
     };
 
@@ -215,7 +215,7 @@ function Technologies({ number = codeLanguageToNumber(), mode }) {
                 </form>
                 <br></br>
 
-                <form className="sortingFilrtersTechnology">
+                <form className="secondRadio">
                     <h3>{TechnologiesData[number].labels[1]}</h3>
                     <div className="secRadio">
                         {TechnologiesData[number].SortBy.map((n, i) => (
