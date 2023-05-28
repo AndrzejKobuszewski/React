@@ -264,7 +264,8 @@ color:rgb(136, 74, 74);
   grid-row-end: 2;
   position: fixed;
   
-  padding: 45px;
+  padding: 0px 30px;
+  margin-bottom: 2px;
   border-radius: 5px;
 }
 .technologyDisplay{
@@ -337,6 +338,9 @@ color:rgb(136, 74, 74);
   }
   body {
     background-size: 800px 800px;
+  }
+  li{
+    margin-right: 10px;
   }
   .userChoices {
     display:none;

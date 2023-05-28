@@ -25,7 +25,7 @@ const WwwProject = ({number=codeLanguageToNumber()}) =>
                     </div>
                 </div>  
                 <div>  
-                    <h3><b>{n.title[number]} - {n.time}</b></h3>
+                    <h3 style={{marginLeft:"10px"}}><b>{n.title[number]} - {n.time}</b></h3>
                     <p>{n.Description[number]}</p>
                     
                 </div>
