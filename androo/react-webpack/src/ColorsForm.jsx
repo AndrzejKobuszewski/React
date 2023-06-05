@@ -1,7 +1,7 @@
 import React from "react";
 import ColorsFormdata from "../src/data/ColorsFormdata.json";
-import { useContext, useState } from "react";
-import { ColorContext, LanguageContext } from "./VisitCardPage";
+import { useContext } from "react";
+import { ColorContext } from "./VisitCardPage";
 import codeLanguageToNumber from "./codeLanguageToNumber";
 
 
@@ -42,7 +42,7 @@ function ColorsForm({ changeColorsForm = (f) => f, number=codeLanguageToNumber()
         }
 
     return <>
-        <div className='colorPicker' style={{ position: "absolute", display: 'none', backgroundColor: colors[1], borderRadius: "5px",   width: '61%'}}>
+        <div className='colorPicker' style={{ position: "absolute", display: 'none', backgroundColor: colors[1], borderRadius: "5px",   width: '61%',zIndex:'10'}}>
     
             <form style={formStyle}>
                 <div>

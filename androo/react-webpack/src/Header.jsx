@@ -4,12 +4,12 @@ import ColorsForm from "./ColorsForm";
 import header from "./data/header.json";
 import {ColorContext, LanguageContext} from './VisitCardPage';
 import codeLanguageToNumber from "./codeLanguageToNumber";
-// import { BrowserRouter, Link, Route, Routes } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 
 export function Logo() {
   return (
-    <a href="http://tourfast.pl/Resumee1/#About%20me"> <span className="Logo"
+    <a href="http://tourfast.pl/androoit"> <span className="Logo"
       style={{
         fontFamily: "VT323-Regular",
         fontSize: "8.7vw",
@@ -99,8 +99,11 @@ function MenuList({ dane, changePage = (f) => f, number = codeLanguageToNumber()
         
           <li
             onClick={() => changePage(item)}
-            key={i} style={{ cursor: "pointer", borderRadius: '5px' }}> {item}</li>
-
+            key={i+17000} style={{ cursor: "pointer", borderRadius: '5px' }}>
+              <Link to={item}> {item}</Link>
+            
+            </li>
+      
       ))}
     </ul>
   );

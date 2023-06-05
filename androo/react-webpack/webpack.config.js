@@ -1,11 +1,24 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
+
+
 module.exports = {
+
   entry: "./src/index.js",
+ // technologies: "./src/Technologies.js",
+ //mode:'development',
+ //entry:{
+ //index:"./src/index.js",
+ //technologies:"./src/Technologies.js"
+ //},
   output: {
-    filename: "main.js",
+  filename: "main.js",
+ // filename: "main.bundle.js",
     path: path.resolve(__dirname, "build"),
+    
+    publicPath: '',
+    
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -13,6 +26,11 @@ module.exports = {
     }),
   ],
   devServer: {
+ 
+ 
+  //historyApiFallback: true,
+ 
+ 
     static: {
       directory: path.join(__dirname, "build"),
     },
@@ -44,5 +62,11 @@ module.exports = {
   resolve: {
     extensions: [".*", ".js", ".jsx"],
   },
+ //   optimization: {
+  // . splitChunks: {
+  //    chunks: "all",
+  //  },
+ // },
+
 };
 

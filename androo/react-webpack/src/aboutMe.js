@@ -36,11 +36,11 @@ const PersonalityShort = ({
       <h3>
         <b>{data[number].personality[0]}</b>
       </h3>
-      <subhead>
+      <div>
         <a href={data[number].personality[2]} style={{textDecoration: 'none',color: 'currentColor'}} alt="Wikipedia def.">
           <sup> {data[number].personality[1]}</sup>
         </a>
-      </subhead>
+      </div>
     </div>
     <div>
       {data[number].personalityDesc
@@ -48,7 +48,7 @@ const PersonalityShort = ({
           i == 0 ? (
             <h4 key={i}>{n[0]}</h4>
           ) : (
-            <h5 onClick={()=>thinkCloud(i)} style={{ cursor: "pointer", paddingLeft:"10px" }} key={i}>
+            <h5 onClick={(event)=>(thinkCloud(i), event.target.style.display='none')} style={{ cursor: "pointer", paddingLeft:"10px" }} key={i}>
               {n[0]}
             </h5>
           )
@@ -74,13 +74,15 @@ const FeatureDesc = ({think, number=codeLanguageToNumber()}) => (
     {data[number].personalityDesc.map((n, i) => i==think?(<p key={i}>{n[1]}</p>):null)}
   </div>
 );
-const PersonalitySummary = ({number=codeLanguageToNumber()}) => (
-  <div>
-    <p>
-      <b>{(data[number].personalityDesc[data[number].personalityDesc.length - 1])}</b>
-    </p>
-  </div>
-);
+function PersonalitySummary({ number = codeLanguageToNumber() }) {
+  return (
+    <div>
+      <p>
+        <b>{(data[number].personalityDesc[data[number].personalityDesc.length - 1])}</b>
+      </p>
+    </div>
+  );
+}
 
 function AboutMe({ talk = "Introduction", thinkCloud = "noThink", noSet=[],mode}) {
   const [subject, setSubject] = useState(talk);
@@ -154,7 +156,7 @@ const stylesSpeakSumUp = {backgroundColor: handleThemes(mode, colors, 2), opacit
               </article>
               {readSet.length==5?
               <article className="sumUp" style={stylesSpeakSumUp}>
-                <PersonalitySummary readSet={readSet}/>
+                <PersonalitySummary  readSet={readSet}/>
               </article>:null}
             </div>
           </>

@@ -26,11 +26,11 @@ function Blog({ number = codeLanguageToNumber() }) {
       <div>
         {article == "list" ? (
           <>
-            <div
+            <div 
               onClick={ showArticle}
               style={{
                 cursor: "pointer",
-                display: "grid",
+                display: "grid",    
                 gridTemplateColumns: "20% 80%"
               }}
             >
@@ -39,17 +39,18 @@ function Blog({ number = codeLanguageToNumber() }) {
               </div>
               <div>
                 <h3>
-                  {data[number].Post1.Title} <span style={{fontSize:"small"}}>{data[number].Post1.Date}</span>
+                  {data[number].Post1.Title} 
+                  <span style={{fontSize:"small"}}>{data[number].Post1.Date}</span>
                 </h3>
-                
                 <br></br>
               </div>
             </div>
+          
           </>
         ) : 
         (
           <>
-            <div
+            <div 
               onClick={showList}
               style={{
                 cursor: "pointer",
@@ -67,7 +68,7 @@ function Blog({ number = codeLanguageToNumber() }) {
                 <br></br>
               </div>
               <div></div>
-              <div style={{fontWeight: "normal"}}>
+              <div  className="blogArticle" style={{fontWeight: "normal"}}>
                 <p>
                     {data[number].Post1.Content.Paragraph1}<br></br>
                 

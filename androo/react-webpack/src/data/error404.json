@@ -1,0 +1,5 @@
+[
+    {"notFound":"Something went wrong. Resource not found in the server. Error 404 "},
+    {"notFound":"Coś poszło nie tak. Nie znaleziono zasobów na serwerze. Błąd 404"},
+    {"notFound":"Etwas ist schief gelaufen. Die Ressource wurde auf dem Server nicht gefunden. Fehler 404"}
+]
