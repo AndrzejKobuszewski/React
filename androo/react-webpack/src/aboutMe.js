@@ -48,7 +48,9 @@ const PersonalityShort = ({
           i == 0 ? (
             <h4 key={i}>{n[0]}</h4>
           ) : (
-            <h5 onClick={(event)=>(thinkCloud(i), event.target.style.display='none')} style={{ cursor: "pointer", paddingLeft:"10px" }} key={i}>
+            <h5 onClick={(event)=>(
+              thinkCloud(i),
+              event.target.style.display='none')} style={{ cursor: "pointer", paddingLeft:"10px" }} key={i}>
               {n[0]}
             </h5>
           )
