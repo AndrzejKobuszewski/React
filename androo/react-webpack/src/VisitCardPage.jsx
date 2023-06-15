@@ -9,6 +9,7 @@ import Footer from "./Footer.jsx";
 
 
 
+
 export const CreatetartColorsArray = () =>
 {let startColorsArray = ["a","a"];
 ColorsFormdata[0].colorLabels.map((n,i)=>n.map((m,j)=>j%2==1?(startColorsArray.push(m+" ")):null));
@@ -67,7 +68,7 @@ function VisitCardPage({startPage=dane[0].menu[0], startColors= CreatetartColors
         <LanguageContext.Provider value={{lang, setLang}}>
           
           <Header changePage={(MenuItem)=>setPage(MenuItem)} changemodecontrast={()=>changemodecontrast()} 
-          changemodedark={()=>changemodedark()}  changemoderegular={()=>changemoderegular()}/>     
+          changemodedark={()=>changemodedark()}  changemoderegular={()=>changemoderegular()}/>  
           <Container page={page} mode={mode}></Container>          
           <Footer></Footer>
       

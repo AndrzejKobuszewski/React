@@ -4,17 +4,20 @@
     "inRepository": "In repository",
     "iUsedLanguages": "I used languages",
     "GitRepoDisclaimer":"not all codeing languages are known to github.com. Ie. vba and github comments itselfs are stored in dedicated files",
-    "charDescription":"chars registered by Github.com;"},
+    "charDescription":"chars registered by Github.com;",
+    "fetchedFrom": "my profile fetched from github"},
     {"intro":"Statystyki pobranych repozytoriów Github:",
         "loading":"Ładowanie treści z Github.com...",
         "inRepository": "W repozytorium",
     "iUsedLanguages": "użyłem następujących języków programownia",
         "GitRepoDisclaimer":"nie wszystkie języki programowania są znane github.com. Np. vba i same w sobie komentarze github są przechowywane w dedykowanych plikach",
-        "charDescription":"znaków zarejestrowanych przez Github.com;"},
+        "charDescription":"znaków zarejestrowanych przez Github.com;",
+    "fetchedFrom":"mój profil ściągnięty z GitHub, który nie obsługuje języka polskiego"},
     {"intro":"Abgerufene Github Repos-Statistiken:",
         "loading":"Laden von Inhalten von Github.com.....",
         "inRepository": "Im Repository",
     "iUsedLanguages": "ich habe die folgenden Programmiersprachen verwenden",
         "GitRepoDisclaimer":"Nicht alle Programmiersprachen sind github.com bekannt. Beispielsweise werden VBA- und Github-Kommentare selbst in speziellen Dateien gespeichert",
-        "charDescription":"von Github.com eingetragene Marken;"}
+        "charDescription":"von Github.com eingetragene Marken;",
+        "fetchedFrom":"mein von GitHub heruntergeladenes Profil, das Deutsch nicht unterstützt"}
 ]

@@ -33,7 +33,7 @@ const location = useLocation();
         <Route path="/Technologien" element={<Suspense fallback={<div>Loading...</div>}><Technologies mode={mode} /></Suspense>} />
       
         <Route path='/www Projects' element={<Suspense fallback={<div>Loading...</div>}><WwwProjects mode={mode} /></Suspense>} />
-        <Route path="/Projekty www" element={<Suspense fallback={<div>Loading...</div>}><WwwProjects mode={mode} /></Suspense>} />
+        <Route path="/Projekty www" element={<Suspense fallback={<div>Ładuję treść...</div>}><WwwProjects mode={mode} /></Suspense>} />
         <Route path="/www Projekte" element={<Suspense fallback={<div>Loading...</div>}><WwwProjects mode={mode} /></Suspense>} />
 
         <Route path='/Library' element={<Library page={page} />} />

@@ -38,8 +38,16 @@ function WwwProjects({ number = codeLanguageToNumber(), mode }) {
     backgroundColor: handleThemes(mode, colors, 2),
     opacity: "82%",
     borderRadius: "5px",
-    marginBottom: "-0.6rem",
+    marginBottom: "-0.*6rem",
   };
+  const Clarification = {
+    backgroundColor: handleThemes(mode, colors, 2),
+    opacity: "82%",
+    borderRadius: "5px",
+    marginBottom: "-0.*6rem",
+    fontSize: "11px"
+  };
+
 
   const FetchedIntro = useEffect(() => {
     function Loaddata() {
@@ -71,7 +79,9 @@ function WwwProjects({ number = codeLanguageToNumber(), mode }) {
       <div
         className="speak"
         
-      >
+      >  <label style={Clarification}  htmlFor="gitReadMe">
+      *) {data[number].fetchedFrom}
+    </label>
         <textarea
           rows="18"
           cols="30"
@@ -83,9 +93,7 @@ function WwwProjects({ number = codeLanguageToNumber(), mode }) {
           {/* */}
         </textarea>
         <br></br>
-        <label style={{ fontSize: "11px" }} htmlFor="gitReadMe">
-          *) my profile fetched from github
-        </label>
+      
       </div>
       <article className="" style={{ borderRadius: "5px" }}>
         <div

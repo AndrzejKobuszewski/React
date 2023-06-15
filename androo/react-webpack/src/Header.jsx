@@ -4,7 +4,8 @@ import ColorsForm from "./ColorsForm";
 import header from "./data/header.json";
 import {ColorContext, LanguageContext} from './VisitCardPage';
 import codeLanguageToNumber from "./codeLanguageToNumber";
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import Hamburger from "./MenuStrip";
 
 
 export function Logo() {
@@ -109,15 +110,24 @@ function MenuList({ dane, changePage = (f) => f, number = codeLanguageToNumber()
   );
 }
 
+
+
+
 function Header({ changePage, changemoderegular, changemodecontrast, changemodedark}) {
-  
 const {colors, setColors} = useContext(ColorContext);
 
+function toggleMenu(){
+  const userChoicesMobile = document.querySelector('.userChoicesMobile');
+  {userChoicesMobile.style.display=="flex"? userChoicesMobile.style.display="none":userChoicesMobile.style.display="flex"};
+}
 
   return (
     <div className ='headerBar' >
       <div className="Logo">
         <Logo changemoderegular={changemoderegular}/>
+      </div>
+      <div className="menustrip">
+      <Hamburger toggleMenu={()=>toggleMenu()}/>   
       </div>
       <div className="userChoices" >
         <div  style={{borderColor: colors[0]}} className="WebOptions">

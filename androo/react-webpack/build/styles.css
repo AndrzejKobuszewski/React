@@ -2,17 +2,21 @@
   font-family: VT323-Regular;
   src: url("./fonts/VT323-Regular.ttf") format("truetype");
 }
-
+/* 
 html {
+
   overflow-x: hidden;
-  overflow-y: scroll;
-}
+} */
+
 #root {
+
   padding: 7px;
   overflow-x: hidden;
   animation-name: fadein;
   animation-duration: 0.3s;
+  
 }
+
 
 body {
   margin: 0px;
@@ -23,17 +27,19 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 100%;
-  max-height: 100%;
+  /* max-height: 100%; */
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
 
   min-height: 99vh;
   color: rgb(136, 74, 74);
-  overflow-x: hidden;
-  overflow: hidden;
+ 
+ 
   animation-name: fadein;
   animation-duration: 2s;
+
 }
+
 
 a:hover {
   text-decoration: none;
@@ -145,6 +151,15 @@ article p {
     opacity: 1;
   }
 }
+@keyframes grow {
+  0% {
+    height: 0px;
+  }
+  100% {
+    height: 200px;
+  }
+}
+
 button {
   border-radius: 5px;
 }
@@ -310,6 +325,10 @@ Header {
   justify-content: space-between;
   border-bottom: 1px solid rgb(136, 74, 74);
 }
+.menustrip{
+  display: none;
+}
+
 .AboutMe {
   display: flex;
 }
@@ -368,9 +387,7 @@ Header {
   border-radius: 5px;
   margin-left: 35%;
 }
-.userChoicesMobile {
-  display: none;
-}
+
 
 .libraryContainer {
   background-color: #f6f6f6d2;
@@ -392,7 +409,9 @@ Header {
   animation-duration: 0.4s;
 }
 
-
+.userChoicesMobile {
+  display: none;
+}
 
 
 
@@ -407,6 +426,9 @@ Header {
   li {
     margin-right: 10px;
   }
+  .headerBar{
+    justify-content: space-between;
+  }
   .userChoices {
     display: none;
   }
@@ -414,8 +436,11 @@ Header {
     width: 45%;
   }
   .userChoicesMobile {
-    display: flex;
+    display: none;
     font-size: 80%;
+    /* animation-name: fadein; */
+    animation-name: grow;
+    animation-duration: 0.3s;
   }
   .userChoicesMobile input {
     display: none;
@@ -516,4 +541,24 @@ Header {
     bottom: 88px;
     right: 1px;
   }
+  .menustrip{
+    display: block;
+    float: right;
+    height: 8.7vw;
+    width: 8.7vw;
+    background-color: currentColor;
+    border-radius: 5px;
+    margin: 1.7% 0%;
+  }
+  .hamburger{
+    display:block;
+    width: 100%;
+    height: 100%;
+  
+  }
+  .hamburger:hover{
+    animation-name: fadein;
+    animation-duration: 0.3s;
+  }
+
 }
